@@ -1,3 +1,7 @@
+---
+icon: memo-circle-info
+---
+
 # Cognitive Load Estimation in VR Flight Simulator
 
 ## Citation Information
@@ -8,23 +12,23 @@
 
 This article delves into the development of a virtual reality (VR)-based flight simulator designed to evaluate cognitive load by utilizing ocular data and EEG metrics. The advanced simulator is capable of replicating realistic air combat scenarios, offering a dynamic and immersive experience for users. Through sophisticated sensors, it provides insightful feedback on cognitive load by analyzing factors such as pupil dilation, gaze fixation, and various EEG indicators.
 
-The study involved a cohort of 12 test pilots who engaged with the simulation, providing a robust data set for analysis. Key findings indicated a strong correlation between both EEG and ocular data with the perceived task difficulty experienced by the pilots. This correlation underscores the simulator's potential as a reliable tool for assessing cognitive load in a controlled yet realistic environment.&#x20;
+The study involved a cohort of 12 test pilots who engaged with the simulation, providing a robust data set for analysis. Key findings indicated a strong correlation between both EEG and ocular data with the perceived task difficulty experienced by the pilots. This correlation underscores the simulator's potential as a reliable tool for assessing cognitive load in a controlled yet realistic environment.
 
 ## Keywords
 
-• Human factors&#x20;
+• Human factors
 
-• Virtual reality&#x20;
+• Virtual reality
 
-• Cognitive load&#x20;
+• Cognitive load
 
-• Ocular parameters&#x20;
+• Ocular parameters
 
-• Eye gaze&#x20;
+• Eye gaze
 
-• Flight simulator&#x20;
+• Flight simulator
 
-• EEG&#x20;
+• EEG
 
 • Task engagement
 
