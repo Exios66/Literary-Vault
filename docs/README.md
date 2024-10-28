@@ -147,6 +147,7 @@ Access documentation:
 
 * Questions API: http://localhost:8000/docs
 * Changelog API: http://localhost:8001/docs
+* Changelog Server API: https://exios66.github.io/Literary-Vault/
 
 ### 2. Changelog Management
 
@@ -209,4 +210,4 @@ Released under [MIT License](LICENSE).
 
 ---
 
-Last Updated: 2024-01-27
+Last Updated: 2024-10-28
