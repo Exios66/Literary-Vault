@@ -18,26 +18,43 @@ layout:
   pagination:
     visible: true
 ---
+# Literary Vault
 
-# The Literary Vault Docs
+[![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
+[![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
-[![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66\&message=Literary-Vault\&color=blueviolet\&logo=github)](https://github.com/Exios66/Literary-Vault) [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
+<a href="https://morningstar-developments.gitbook.io/morningstar-docs">![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)</a>
 
-[![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook\_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-neuroscience-research-docs/)
+<div align="center">
+
+</div>
 
 ## Documentation
 
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](./) [![PDFs - PDF Vault](https://img.shields.io/badge/PDFs-PDF\_Vault-blueviolet?logo=visual-studio-code)](../pdfs/)
+<div align="center">
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+[![PDFs - PDF Vault](https://img.shields.io/badge/PDFs-PDF_Vault-blueviolet?logo=visual-studio-code)](/pdfs)
+</div>
+
 
 ## License
 
-Released under [MIT](../LICENSE/) by [@Exios66](https://github.com/Exios66). [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) [![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) [![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) [![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) 
+[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) 
+[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) 
+[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) 
+[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) 
+[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
 A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
 
 ## 📚 Overview
 
-![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
+![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
+[![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
 Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
 
@@ -228,7 +245,8 @@ Special thanks to individuals and organizations for their invaluable contributio
 
 ***
 
-[![License](https://img.shields.io/badge/License-MIT-blueviolet)](./#license) [![issues - Literary-Vault](https://img.shields.io/github/issues/Exios66/Literary-Vault)](https://github.com/Exios66/Literary-Vault/issues)
+[![License](https://img.shields.io/badge/License-MIT-blueviolet)](#license)
+[![issues - Literary-Vault](https://img.shields.io/github/issues/Exios66/Literary-Vault)](https://github.com/Exios66/Literary-Vault/issues)
 
 ### For Questions or Contributions
 
@@ -241,3 +259,25 @@ For inquiries or if you wish to contribute, please consider opening an issue in 
 For more detailed support or inquiries, we encourage you to get in touch through our official communication channels. Please feel free to reach out via email, contact forms on our website, or by calling our customer service hotline. Our dedicated team is here to assist you with any questions or issues you may have. Your satisfaction is important to us, and we look forward to providing you with the help you need
 
 ***
+
+---
+icon: book-atlas
+description: Landing Page to the Literary Cold Storage Vault.
+cover: >-
+  https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
