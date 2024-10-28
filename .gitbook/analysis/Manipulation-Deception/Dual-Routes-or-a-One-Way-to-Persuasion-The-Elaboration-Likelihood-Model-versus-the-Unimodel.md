@@ -1,4 +1,4 @@
-# **Dual Routes or a One-Way to Persuasion? The Elaboration Likelihood Model versus the Unimodel**
+# Dual Routes or a One-Way to Persuasion? The Elaboration Likelihood Model versus the Unimodel
 
 ## Citation Information
 
@@ -27,7 +27,7 @@ This study compares two dominant theories in attitude formation and persuasion: 
 
 ---
 
-# Detailed Breakdown of the Article's Content
+## Detailed Breakdown of the Article's Content
 
 ### Introduction
 
