@@ -7,6 +7,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+[![Discord](https://img.shields.io/discord/1266444444444444444?label=Discord&logo=discord&logoColor=white&color=7389D8&labelColor=6A7EC2)](https://discord.gg/nxyBq8YaZD)
 
 A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
 
