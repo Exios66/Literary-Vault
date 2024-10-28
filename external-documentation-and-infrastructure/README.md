@@ -1,5 +1,8 @@
 ---
 icon: plus-minus
+cover: >-
+  https://images.unsplash.com/photo-1610385983592-bd3cb040d9f7?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw3fHxkb2N1bWVudHxlbnwwfHx8fDE3MzAwODk4ODB8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # External Documentation & Infrastructure

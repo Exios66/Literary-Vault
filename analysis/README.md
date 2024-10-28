@@ -1,3 +1,7 @@
+---
+icon: books
+---
+
 # Analysis & Literature Review
 
 This directory contains the analysis of research papers and a comprehensive literature review focused on EEG, pupillometry, and cognitive workload detection.
@@ -26,19 +30,17 @@ The literature review focuses on the following key areas:
 ### Key Papers
 
 1. **Combining EEG with Pupillometry to Improve Cognitive Workload Detection** (Rozado & Duenser, 2015)
-   - Demonstrates significant improvement in workload detection using multimodal approach
-   - Achieved 17% error rate when combining EEG and pupillometry
-   - Published in Computer (IEEE)
-
+   * Demonstrates significant improvement in workload detection using multimodal approach
+   * Achieved 17% error rate when combining EEG and pupillometry
+   * Published in Computer (IEEE)
 2. **Cognitive Load Estimation in VR Flight Simulator** (Hebbar et al., 2023)
-   - Investigates VR-based cognitive load assessment using ocular and EEG data
-   - Shows strong correlation between physiological metrics and task difficulty
-   - Published in Journal of Eye Movement Research
-
+   * Investigates VR-based cognitive load assessment using ocular and EEG data
+   * Shows strong correlation between physiological metrics and task difficulty
+   * Published in Journal of Eye Movement Research
 3. **The Oxford Handbook of Event-Related Potential Components** (Kappenman & Luck, 2011)
-   - Comprehensive reference for ERP research and methodology
-   - Covers component isolation, analysis techniques, and applications
-   - Essential resource for EEG/ERP experimental design
+   * Comprehensive reference for ERP research and methodology
+   * Covers component isolation, analysis techniques, and applications
+   * Essential resource for EEG/ERP experimental design
 
 ## Analysis Goals
 
@@ -49,28 +51,26 @@ The literature review focuses on the following key areas:
 
 ## Research Focus Areas
 
-- Signal processing techniques for EEG and pupillometry data
-- Feature extraction and selection methods
-- Machine learning approaches for cognitive state classification
-- Real-time monitoring capabilities
-- Practical implementation considerations
-- VR applications in cognitive load assessment
-- Multimodal signal integration strategies
+* Signal processing techniques for EEG and pupillometry data
+* Feature extraction and selection methods
+* Machine learning approaches for cognitive state classification
+* Real-time monitoring capabilities
+* Practical implementation considerations
+* VR applications in cognitive load assessment
+* Multimodal signal integration strategies
 
 ## Key Findings
 
 1. **Multimodal Superiority**
-   - Combining EEG with pupillometry significantly improves workload detection accuracy
-   - Error rates reduced by ~30% compared to single-modality approaches
-
+   * Combining EEG with pupillometry significantly improves workload detection accuracy
+   * Error rates reduced by \~30% compared to single-modality approaches
 2. **VR Integration**
-   - VR environments provide controlled conditions for cognitive load assessment
-   - Enable realistic simulation while maintaining measurement accuracy
-
+   * VR environments provide controlled conditions for cognitive load assessment
+   * Enable realistic simulation while maintaining measurement accuracy
 3. **Methodological Considerations**
-   - Need for careful control of external factors (e.g., lighting for pupillometry)
-   - Importance of proper component isolation in EEG analysis
-   - Value of standardized experimental protocols
+   * Need for careful control of external factors (e.g., lighting for pupillometry)
+   * Importance of proper component isolation in EEG analysis
+   * Value of standardized experimental protocols
 
 ## Contributing
 
@@ -84,13 +84,13 @@ When adding new papers or analyses:
 
 ## Future Work
 
-- Expand analysis of real-time processing methods
-- Investigate emerging multimodal approaches
-- Document implementation challenges and solutions
-- Develop standardized evaluation metrics
-- Explore applications in different domains (aviation, healthcare, etc.)
-- Assess impact of VR technology on measurement accuracy
+* Expand analysis of real-time processing methods
+* Investigate emerging multimodal approaches
+* Document implementation challenges and solutions
+* Develop standardized evaluation metrics
+* Explore applications in different domains (aviation, healthcare, etc.)
+* Assess impact of VR technology on measurement accuracy
 
----
+***
 
 **Note**: This is a living document that will be updated as new research is analyzed and findings are synthesized.

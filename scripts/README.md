@@ -1,3 +1,7 @@
+---
+icon: python
+---
+
 # Scripts Directory
 
 This directory contains utility scripts for managing the Literary Vault repository.
@@ -22,18 +26,18 @@ A streamlined tool for maintaining the project's CHANGELOG.md file with automati
 
 Short codes are supported for convenience:
 
-- `a` or `added` - Added
-- `c` or `changed` - Changed
-- `d` or `dep` - Deprecated
-- `r` or `removed` - Removed
-- `f` or `fixed` - Fixed
-- `s` or `sec` - Security
+* `a` or `added` - Added
+* `c` or `changed` - Changed
+* `d` or `dep` - Deprecated
+* `r` or `removed` - Removed
+* `f` or `fixed` - Fixed
+* `s` or `sec` - Security
 
 #### Version Bump Options
 
-- `major` - Breaking changes (1.0.0)
-- `minor` - New features (0.1.0)
-- `patch` - Bug fixes (0.0.1) [default]
+* `major` - Breaking changes (1.0.0)
+* `minor` - New features (0.1.0)
+* `patch` - Bug fixes (0.0.1) \[default]
 
 #### Examples
 
@@ -53,16 +57,16 @@ Short codes are supported for convenience:
 
 #### Features
 
-- Automatic semantic versioning
-- Short command aliases
-- Maintains Keep a Changelog format
-- Prevents empty releases
-- Automatic section management
+* Automatic semantic versioning
+* Short command aliases
+* Maintains Keep a Changelog format
+* Prevents empty releases
+* Automatic section management
 
 ## Requirements
 
-- Python 3.x
-- No additional dependencies required
+* Python 3.x
+* No additional dependencies required
 
 ## Installation
 
@@ -71,3 +75,4 @@ The scripts are automatically executable. You can run them directly from the scr
 ```bash
 cd scripts
 ./cl add a "New feature"
+```

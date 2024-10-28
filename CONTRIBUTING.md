@@ -1,14 +1,18 @@
-# Contributing to Literary Vault
+---
+icon: github
+---
+
+# Contributing to the Literary Vault
 
 Thank you for your interest in contributing to Literary Vault! This document provides guidelines and instructions for contributing.
 
 ## Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
-- [How Can I Contribute?](#how-can-i-contribute)
-- [Style Guidelines](#style-guidelines)
-- [Commit Messages](#commit-messages)
-- [Pull Request Process](#pull-request-process)
+* [Code of Conduct](CONTRIBUTING.md#code-of-conduct)
+* [How Can I Contribute?](CONTRIBUTING.md#how-can-i-contribute)
+* [Style Guidelines](CONTRIBUTING.md#style-guidelines)
+* [Commit Messages](CONTRIBUTING.md#commit-messages)
+* [Pull Request Process](CONTRIBUTING.md#pull-request-process)
 
 ## Code of Conduct
 
@@ -41,37 +45,37 @@ This project and everyone participating in it is governed by our Code of Conduct
 
 ### Markdown Files
 
-- Use consistent heading levels
-- Include a table of contents for longer documents
-- Use proper formatting for code blocks and quotes
-- Include metadata section when applicable
+* Use consistent heading levels
+* Include a table of contents for longer documents
+* Use proper formatting for code blocks and quotes
+* Include metadata section when applicable
 
 ### Directory Structure
 
-- Maintain the established directory hierarchy
-- Use clear, descriptive folder names
-- Include README.md files in new directories
-- Follow the naming conventions
+* Maintain the established directory hierarchy
+* Use clear, descriptive folder names
+* Include README.md files in new directories
+* Follow the naming conventions
 
 ### Analysis Documents
 
-- Start with a clear summary
-- Include methodology section
-- Provide proper citations
-- Use consistent formatting
-- Include relevant diagrams or figures when helpful
+* Start with a clear summary
+* Include methodology section
+* Provide proper citations
+* Use consistent formatting
+* Include relevant diagrams or figures when helpful
 
 ## Commit Messages
 
-- Use the present tense ("Add feature" not "Added feature")
-- Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-- Limit the first line to 72 characters or less
-- Reference issues and pull requests liberally after the first line
-- Consider starting the commit message with an applicable emoji:
-  - 📚 `:books:` when adding or updating documentation
-  - 📝 `:memo:` when adding or updating analysis
-  - 🔧 `:wrench:` when fixing something
-  - ✨ `:sparkles:` when adding new features
+* Use the present tense ("Add feature" not "Added feature")
+* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+* Limit the first line to 72 characters or less
+* Reference issues and pull requests liberally after the first line
+* Consider starting the commit message with an applicable emoji:
+  * 📚 `:books:` when adding or updating documentation
+  * 📝 `:memo:` when adding or updating analysis
+  * 🔧 `:wrench:` when fixing something
+  * ✨ `:sparkles:` when adding new features
 
 ## Pull Request Process
 
