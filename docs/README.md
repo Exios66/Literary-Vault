@@ -19,7 +19,7 @@ layout:
     visible: true
 ---
 
-# Literary Vault Documentation
+## Literary Vault Documentation Guide
 
 [![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
@@ -145,9 +145,9 @@ python docs/api/changelog_api.py
 
 Access documentation:
 
-* Questions API: http://localhost:8000/docs
-* Changelog API: http://localhost:8001/docs
-* Changelog Server API: https://exios66.github.io/Literary-Vault/
+* Questions API: <http://localhost:8000/docs>
+* Changelog API: <http://localhost:8001/docs>
+* Changelog Server API: <https://exios66.github.io/Literary-Vault/>
 
 ### 2. Changelog Management
 
@@ -208,6 +208,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 Released under [MIT License](LICENSE).
 
----
+***
 
-Last Updated: 2024-10-28
+### Last Updated: 2024-10-28
