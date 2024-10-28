@@ -1,0 +1,55 @@
+{
+  "name": "randomize_questions",
+  "description": "Randomly select and order questions from a given category",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "category": {
+        "type": "string",
+        "description": "The category of questions to randomize (astronomy, literature, or mathematics)",
+        "enum": ["astronomy", "literature", "mathematics"]
+      },
+      "count": {
+        "type": "integer",
+        "description": "Number of questions to randomly select",
+        "default": 5,
+        "minimum": 1,
+        "maximum": 20
+      },
+      "seed": {
+        "type": "integer",
+        "description": "Optional random seed for reproducible randomization",
+        "default": null
+      }
+    },
+    "required": ["category"]
+  },
+  "returns": {
+    "type": "array",
+    "items": {
+      "type": "object", 
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the selected question"
+        },
+        "question": {
+          "type": "string",
+          "description": "The randomized question text"
+        },
+        "options": {
+          "type": "array",
+          "description": "Randomized multiple choice options if applicable",
+          "items": {
+            "type": "string"
+          }
+        },
+        "correct_answer": {
+          "type": "string",
+          "description": "The correct answer for the question"
+        }
+      },
+      "required": ["id", "question", "correct_answer"]
+    }
+  }
+}
