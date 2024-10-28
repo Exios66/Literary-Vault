@@ -24,7 +24,6 @@ layout:
 
 [![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
-[![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
 <div align="center">
 
@@ -46,7 +45,6 @@ Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
 [![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) 
 [![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) 
 [![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
 [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) 
 [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
@@ -55,6 +53,8 @@ A comprehensive repository for organizing and analyzing research papers, particu
 ## 📚 Overview
 
 ![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
+[![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
 Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
 
