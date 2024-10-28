@@ -22,7 +22,36 @@ layout:
 
 # Literary Vault
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) [![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) [![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) [![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) [![Discord](https://img.shields.io/discord/1266444444444444444?label=Discord\&logo=discord\&logoColor=white\&color=7389D8\&labelColor=6A7EC2)](https://discord.gg/nxyBq8YaZD)
+[![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
+[![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
+[![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
+
+[![License](https://img.shields.io/badge/License-MIT-blueviolet)](#license)
+[![issues - Literary-Vault](https://img.shields.io/github/issues/Exios66/Literary-Vault)](https://github.com/Exios66/Literary-Vault/issues)
+
+<div align="center">
+
+</div>
+
+## Documentation
+
+<div align="center">
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
+
+</div>
+
+
+## License
+
+Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) 
+[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) 
+[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) 
+[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
+[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) 
+[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
 A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
 
