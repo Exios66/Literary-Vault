@@ -1,1 +1,6 @@
-# [Math Questions Placeholder]
+---
+hidden: true
+---
+
+# \[Math Questions Placeholder]
+
