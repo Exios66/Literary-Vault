@@ -18,48 +18,12 @@ layout:
   pagination:
     visible: true
 ---
-# Literary Vault
+
+# Literary Vault Documentation
 
 [![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
-
 [![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-docs)
-
-<div align="center">
-
-</div>
-
-## Documentation
-
-<div align="center">
-
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
-[![PDFs - PDF Vault](https://img.shields.io/badge/PDFs-PDF_Vault-blueviolet?logo=visual-studio-code)](/pdfs/ "Go to PDF Vault")
-[![Analysis - Research Analysis](https://img.shields.io/badge/Analysis-Research_Analysis-blueviolet?logo=visual-studio-code)](/analysis/ "Go to Research Analysis")
-[![External Resources - External Resources](https://img.shields.io/badge/External_Resources-External_Resources-blueviolet?logo=visual-studio-code)](/external-resources/ "Go to External Resources")
-[![Scripts - Utility Scripts](https://img.shields.io/badge/Scripts-Utility_Scripts-blueviolet?logo=visual-studio-code)](/scripts/ "Go to Utility Scripts")
-![Account](https://badge.ttsalpha.com/api?icon=github&label=Account&status=Exios66&color=orange&iconColor=white)
-</div>
-
-## License
-
-Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/)
-[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases)
-[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
-[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
-[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
-
-A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
-
-## 📚 Overview
-
-![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
-
-Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
 
 ## 🗂️ Repository Structure
 
@@ -70,10 +34,14 @@ literary-vault/
 │   ├── EEG/             # EEG research analysis
 │   └── Manipulation-Deception/ # Studies on manipulation/deception
 ├── docs/                 # Repository documentation
-├── external-resources/   # Additional resources and references
-│   └── questions/       # Research questions and materials
-├── pdfs/                # Original research papers
-│   └── EEG/            # EEG-related papers
+│   ├── Analysis/        # Detailed research analysis
+│   ├── api/            # API documentation and implementation
+│   ├── Integration/    # Integration guides
+│   ├── openai-functions/ # OpenAI function schemas
+│   └── pdfs/           # PDF documentation
+├── external-resources/   # Additional resources
+│   ├── Math-PDFs/      # Mathematics resources
+│   └── questions/      # Question datasets
 ├── scripts/             # Utility scripts
 ├── CHANGELOG.md         # Project change history
 ├── CONTRIBUTING.md      # Contribution guidelines
@@ -81,212 +49,152 @@ literary-vault/
 └── README.md           # Repository documentation
 ```
 
-## 📑 Main Components
+## 📚 Components
 
-### Analysis Directory
+### 1. Analysis Directory
 
-### External Resources Directory
+Comprehensive research analysis organized by topic:
 
-This directory houses additional materials and references that support and expand upon the research topics covered in the repository. It includes:
+* AI Research (neural networks, ELIZA program, neuropsychoanalysis)
+* EEG Studies (cognitive load, VR integration, Oxford handbook)
+* Manipulation/Deception (persuasion models, cognitive mechanisms)
 
-* Research Questions
-* Supplementary Materials
+### 2. API Services
 
-### Scripts Directory
+#### Questions API
 
-Contains utility scripts used for processing, analyzing, and organizing the research papers and associated data. These are essential for automating tasks and ensuring efficient workflow management.
+REST API for accessing curated question datasets:
 
-### Documentation Files
+* Astronomy questions
+* Literature questions
+* Mathematics questions
+* General Knowledge questions
 
-* `CHANGELOG.md`: Records the project's development history, detailing updates, changes, and improvements over time.
-* `CONTRIBUTING.md`: Provides guidelines for contributing to the repository, including coding standards and submission instructions.
-* `LICENSE`: Details the terms and conditions under which the repository's contents can be used, modified, and shared.
-* `README.md`: Serves as the main introduction and guide to the repository, offering an overview of its purpose and structure.
+Features:
 
-## Research Archive
+* Category-based retrieval
+* Random selection
+* Customizable limits
+* OpenAPI documentation
 
-![Research](https://badge.ttsalpha.com/api?icon=github&label=Research&status=Storage&color=yellow&iconColor=white)
+Endpoints:
 
-### Overview
+```bash
+GET /api/v1/questions/{category}
+GET /api/v1/questions/{category}/random
+GET /api/v1/health
+```
 
-This repository contains a comprehensive collection of markdown files featuring detailed analyses of various research papers. The analyses are carefully organized by topic to facilitate easy access and cross-referencing. This structure enables researchers and students to efficiently explore diverse areas of research and gain valuable insights.
+#### Changelog API
 
-### Topics Covered
+Programmatic changelog management:
 
-#### 1. Manipulation and Deception Studies
+* Add entries
+* Create releases
+* Query history
+* Schema validation
 
-* **Objective:** To understand the psychological and sociological aspects of manipulation and deception.
-* **Content:** Includes summaries and critiques of research papers focusing on cognitive techniques, behavioral impacts, and ethical considerations involved in manipulation and deception.
-* **Key Areas:** Persuasion strategies, misinformation spread, ethical boundaries.
+### 3. External Resources
 
-#### 2. AI Research
+* Mathematics PDFs
+* Question datasets (CSV format)
+* Reference materials
+* Supplementary documentation
 
-* **Objective:** To explore the advancements and future directions of artificial intelligence.
-* **Content:** Offers structured analyses of studies related to machine learning, neural networks, AI ethics, and human-AI interaction.
-* **Key Areas:** AI algorithms, ethics of AI, AI in society, autonomous systems.
+### 4. Integration Tools
 
-#### 3. EEG Research
+* OpenAI function schemas
+* API integration guides
+* Changelog automation
+* Documentation templates
 
-* **Objective:** To delve into the use of EEG technology in cognitive and neurological studies.
-* **Content:** Features evaluations and discussions of research on brainwave monitoring, signal processing methods, and applications of EEG in various fields.
-* **Key Areas:** Brain-computer interfaces, neurological disorder studies, cognitive function analysis.
+### 5. Scripts
 
-### Usage
+Utility scripts for repository management:
 
-* **Researchers:** Gain insight into current trends and methodologies.
-* **Students:** Utilize the detailed analyses for studies and assignments.
-* **Educators:** Reference materials for teaching purposes.
-
-## Academic Publications and Research Papers Directory
-
-Welcome to our extensive repository of academic publications and research papers, specifically focusing on EEG Studies. This collection stores original research papers and documents, meticulously organized by subject area to facilitate easy access and in-depth research. Included formats range widely, but PDFs are standard for their convenience and portability.
-
-### PDFs Directory
-
-Within this directory, you will find comprehensive documents contributing to the field's knowledge base. Our emphasis is on ensuring that researchers, educators, and students can seamlessly navigate and utilize these resources in their work.
-
-### How to Contribute
-
-We actively encourage contributions to enhance the richness and breadth of our repository. Anyone interested in participating should adhere to the guidelines specified in the `CONTRIBUTING.md` file. This document outlines vital processes and procedures, ensuring consistent quality. Whether you're submitting new research analyses, suggesting corrections, or expanding upon existing datasets, your input is invaluable.
-
-#### Contribution Process
-
-1. **Review Guidelines**: Before submitting any work, thoroughly review the guidelines in the `CONTRIBUTING.md` file to understand submission requirements and standards.
-2. **Prepare Your Submission**: Ensure your research or correction suggestion is well-documented, with clear references and adherence to academic integrity.
-3. **Submit for Review**: Follow the outlined submission process, including where and how to submit your work for consideration.
-4. **Collaborative Improvement**: Engage with peer-review feedback to refine and perfect your contribution, ultimately enhancing the resource quality for all users.
-
-By following these steps, you can contribute to our dynamic library, advancing collective knowledge and supporting the community dedicated
-
-### Reference Materials
-
-Reference materials provide essential information that underpins the core ideas and concepts within your research. These materials include textbooks, journals, and other scholarly articles that are indispensable for understanding the foundational elements of your topic.
-
-### Mathematical Resources
-
-Mathematical resources are tools, publications, and references that aid in the quantitative analysis and method development crucial to scientific research. They include statistical software, computational tools, mathematics journals, and online databases that provide algorithms and numeric data pertinent to your field.
-
-### Research Questions
-
-Research questions are integral to guiding the direction of your inquiry and ensuring that your investigation remains focused and effective. They help delineate the scope of research, providing clarity and precision to your study while directing data collection and analysis efforts.
-
-### Additional Materials Supporting Research and Analysis
-
-Additional materials encompass all supplementary documents and tools that enhance the depth and breadth of your research. These may involve extended datasets, case studies, interviews, and experiment results that provide a more comprehensive understanding of the investigation.
-
-### External Resources
-
-External resources are important for broadening the perspective of your research beyond internal datasets and publications. These resources include external databases, collaborative platforms, public data repositories, and scholarly
+* Changelog management (cl)
+* API servers
+* Documentation generators
+* Integration tools
 
 ## 🔧 Usage
 
-![Usage](https://badge.ttsalpha.com/api?icon=Gitlab&label=Usage&status=Instructions&color=orange&iconColor=orange)
+### 1. API Services
 
-1. Navigate to the `pdfs/` directory for original research papers
-2. Find corresponding analyses in the `analysis/` directory
-3. Use the changelog update script for tracking changes:
+Start the API servers:
 
-    ```bash
-    python scripts/update_changelog.py add "Added" "New analysis for Paper X"
-    ```
+```bash
+# Questions API
+python docs/api/questions_api.py
 
-4. Follow the contribution guidelines when adding new content
+# Changelog API
+python docs/api/changelog_api.py
+```
 
-## 📝 Contributing
+Access documentation:
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+* Questions API: http://localhost:8000/docs
+* Changelog API: http://localhost:8001/docs
+
+### 2. Changelog Management
+
+```bash
+# Add entry
+python scripts/update_changelog.py add "Added" "New feature"
+
+# Create release
+python scripts/update_changelog.py release "1.0.0"
+```
+
+### 3. Question Datasets
+
+Access structured questions via API or direct CSV files:
+
+* Refined_Astronomy_Questions.csv
+* Refined_Literature_Questions.csv
+* Refined_Mathematics_Questions.csv
+* Refined_General Knowledge_Questions.csv
 
 ## 📋 Guidelines
 
-* Maintain consistent file organization
+* Follow API documentation
+* Use provided schemas
+* Update changelog
+* Maintain documentation
 * Follow naming conventions
-* Update changelog when adding new content
-* Include proper citations and references
-* Keep documentation up to date
+* Include proper citations
 
-## 🔒 Security and Licensing
+## 🔒 Security
 
-* Repository is under MIT License
-* Respect copyright and fair use guidelines
-* Maintain proper attribution
-* Regular backups recommended
+* MIT License compliance
+* API authentication
+* Data validation
+* Error handling
+* Secure endpoints
 
-## 🛠 Scripts
+## 📚 Documentation
 
-### Changelog Management
+* API Documentation (/docs/api/)
+* Integration Guides (/docs/Integration/)
+* OpenAI Schemas (/docs/openai-functions/)
+* Analysis Templates (/docs/Analysis/)
 
-Use the provided Python script to maintain the changelog:
+## 🛠️ Development
 
-```bash
-# Add new entries
-python scripts/update_changelog.py add <type> "description"
+* Python 3.x required
+* FastAPI for APIs
+* JSON schema validation
+* Markdown documentation
+* Git integration
 
-# Create new release
-python scripts/update_changelog.py release <version>
-```
+## 🤝 Contributing
 
-Date Last Updated: 2024-10-27
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-***
+## 📄 License
 
-### Academic Institutions
-
-List of participating academic institutions and their contributions to this project.
-
-***
-
-### Contributing Analysts
-
-Detailed sections about analysts who have contributed significant insights and analyses.
-
-***
-
-### Research Paper Authors
-
-Acknowledgment of authors who have provided research papers that support this project.
-
-***
-
-### 🙏 Acknowledgments
-
-Special thanks to individuals and organizations for their invaluable contributions and support.
-
-***
-
-[![License](https://img.shields.io/badge/License-MIT-blueviolet)](#license)
-[![issues - Literary-Vault](https://img.shields.io/github/issues/Exios66/Literary-Vault)](https://github.com/Exios66/Literary-Vault/issues)
-
-### For Questions or Contributions
-
-For inquiries or if you wish to contribute, please consider opening an issue in the official repository.
-
-***
-
-### 📞 Contact
-
-For more detailed support or inquiries, we encourage you to get in touch through our official communication channels. Please feel free to reach out via email, contact forms on our website, or by calling our customer service hotline. Our dedicated team is here to assist you with any questions or issues you may have. Your satisfaction is important to us, and we look forward to providing you with the help you need
-
-***
+Released under [MIT License](LICENSE).
 
 ---
 
-icon: book-atlas
-description: Landing Page to the Literary Cold Storage Vault.
-cover: >-
-  <https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85>
-coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
+Last Updated: 2024-01-27

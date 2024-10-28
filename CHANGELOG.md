@@ -45,6 +45,56 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - None
 
+## [2.0.0] - 2024-10-28
+
+### Added in [2.0.0]
+
+- New API Services:
+  - Questions API with multiple endpoints:
+    - Category-based question retrieval
+    - Random question selection
+    - Health check endpoint
+  - Changelog API for version management:
+    - Entry management
+    - Release automation
+    - Schema validation
+- Expanded Question Datasets:
+  - General Knowledge questions
+  - Geography questions
+  - Enhanced astronomy content
+  - Additional literature materials
+- Documentation Improvements:
+  - Comprehensive README updates across all directories
+  - API documentation and integration guides
+  - OpenAI function schemas
+  - Implementation examples
+- New Mathematics Resources:
+  - Grade 5 released items
+  - Problem-solving materials
+  - Assessment resources
+- Integration Features:
+  - API authentication
+  - Error handling patterns
+  - Rate limiting
+  - Cache management
+
+### Changed in [2.0.0]
+
+- Enhanced repository structure:
+  - Reorganized documentation hierarchy
+  - Improved resource categorization
+  - Clearer separation of concerns
+- Updated all README files:
+  - Consistent formatting
+  - Expanded content coverage
+  - Better navigation
+  - Improved clarity
+- Improved API integration:
+  - Standardized endpoints
+  - Enhanced error handling
+  - Better documentation
+  - Optimized performance
+
 ## [1.0.0] - 2024-01-24
 
 ### Added in [1.0.0]

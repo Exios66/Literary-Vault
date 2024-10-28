@@ -1,0 +1,141 @@
+{
+  "functions": [
+    {
+      "name": "get_repository_changes",
+      "description": "Retrieve a list of changes from the GitHub repository",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "repository": {
+            "type": "string",
+            "description": "The GitHub repository name (e.g., 'MVT_Nexus/Literary-Vault')"
+          },
+          "branch": {
+            "type": "string",
+            "description": "The branch to analyze (defaults to 'main')",
+            "default": "main"
+          }
+        },
+        "required": ["repository"]
+      }
+    },
+    {
+      "name": "update_changelog",
+      "description": "Update the changelog with new changes and sync with GitBook",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "changes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["Added", "Changed", "Removed", "Deprecated", "Fixed", "Security"],
+                  "description": "The type of change made"
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Description of the change"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": ["Documentation", "Security", "Tests", "Configuration", "Feature"],
+                  "description": "Category of the change"
+                }
+              },
+              "required": ["type", "description"]
+            }
+          },
+          "sync_gitbook": {
+            "type": "boolean",
+            "description": "Whether to sync changes with GitBook",
+            "default": true
+          }
+        },
+        "required": ["changes"]
+      }
+    },
+    {
+      "name": "create_release",
+      "description": "Create a new release in the changelog and optionally publish to GitBook",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "version_bump": {
+            "type": "string",
+            "enum": ["MAJOR", "MINOR", "PATCH"],
+            "description": "Type of version increment"
+          },
+          "sync_gitbook": {
+            "type": "boolean",
+            "description": "Whether to sync the release with GitBook",
+            "default": true
+          },
+          "create_github_release": {
+            "type": "boolean",
+            "description": "Whether to create a GitHub release",
+            "default": false
+          }
+        },
+        "required": ["version_bump"]
+      }
+    },
+    {
+      "name": "get_gitbook_content",
+      "description": "Retrieve content from the GitBook documentation",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "Path to the content in GitBook (e.g., '/changelog')"
+          },
+          "space_id": {
+            "type": "string",
+            "description": "GitBook space ID"
+          }
+        },
+        "required": ["path", "space_id"]
+      }
+    },
+    {
+      "name": "sync_gitbook",
+      "description": "Synchronize changes between GitHub repository and GitBook",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "space_id": {
+            "type": "string",
+            "description": "GitBook space ID"
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "description": "Path to the file in the repository"
+                },
+                "gitbook_path": {
+                  "type": "string",
+                  "description": "Corresponding path in GitBook"
+                }
+              },
+              "required": ["path", "gitbook_path"]
+            }
+          },
+          "direction": {
+            "type": "string",
+            "enum": ["github_to_gitbook", "gitbook_to_github", "bidirectional"],
+            "description": "Direction of synchronization",
+            "default": "github_to_gitbook"
+          }
+        },
+        "required": ["space_id", "files"]
+      }
+    }
+  ]
+}

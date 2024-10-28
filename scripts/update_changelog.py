@@ -3,8 +3,10 @@
 import os
 import sys
 import re
+import subprocess
 from datetime import datetime
 from enum import Enum
+from typing import List, Tuple
 
 class ChangeType(Enum):
     ADDED = "Added"
@@ -45,9 +47,64 @@ class Version:
     def __str__(self):
         return f"{self.major}.{self.minor}.{self.patch}"
 
+class GitChangeAnalyzer:
+    def __init__(self):
+        self.root_dir = os.path.dirname(os.path.dirname(__file__))
+
+    def get_changes(self) -> List[Tuple[str, str, str]]:
+        """Get list of changes from git status."""
+        os.chdir(self.root_dir)
+        try:
+            # Get staged and unstaged changes
+            status = subprocess.check_output(['git', 'status', '--porcelain']).decode()
+            changes = []
+            
+            for line in status.split('\n'):
+                if not line:
+                    continue
+                    
+                status_code = line[:2]
+                file_path = line[3:]
+                
+                # Determine change type
+                if status_code.startswith('A') or (status_code.startswith('??') and os.path.exists(file_path)):
+                    changes.append(('Added', file_path, self._categorize_file(file_path)))
+                elif status_code.startswith('M'):
+                    changes.append(('Changed', file_path, self._categorize_file(file_path)))
+                elif status_code.startswith('D'):
+                    changes.append(('Removed', file_path, self._categorize_file(file_path)))
+                
+            return changes
+        except subprocess.CalledProcessError:
+            print("Error: Not a git repository or git command failed")
+            return []
+
+    def _categorize_file(self, file_path: str) -> str:
+        """Categorize file based on its path and type."""
+        path_lower = file_path.lower()
+        
+        # Security-related changes
+        if any(s in path_lower for s in ['.env', 'security', 'auth', 'password', 'credential']):
+            return 'Security'
+            
+        # Documentation changes
+        if any(s in path_lower for s in ['readme', 'docs/', 'documentation', '.md']):
+            return 'Documentation'
+            
+        # Test changes
+        if 'test' in path_lower:
+            return 'Tests'
+            
+        # Configuration changes
+        if any(s in path_lower for s in ['.json', '.yaml', '.yml', '.toml', '.ini', 'config']):
+            return 'Configuration'
+            
+        return 'Feature'
+
 class ChangelogManager:
     def __init__(self):
         self.changelog_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'CHANGELOG.md')
+        self.git_analyzer = GitChangeAnalyzer()
     
     def read_changelog(self):
         """Read the current changelog file."""
@@ -134,6 +191,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         
         return True
 
+    def analyze_and_update(self):
+        """Analyze git changes and update changelog automatically."""
+        changes = self.git_analyzer.get_changes()
+        if not changes:
+            print("No changes detected")
+            return False
+
+        # Group changes by type
+        changes_by_type = {}
+        for change_type, file_path, category in changes:
+            if change_type not in changes_by_type:
+                changes_by_type[change_type] = []
+            changes_by_type[change_type].append((file_path, category))
+
+        # Add entries for each type of change
+        for change_type, files in changes_by_type.items():
+            # Group files by category
+            files_by_category = {}
+            for file_path, category in files:
+                if category not in files_by_category:
+                    files_by_category[category] = []
+                files_by_category[category].append(file_path)
+
+            # Create and add entries
+            for category, file_paths in files_by_category.items():
+                if len(file_paths) == 1:
+                    description = f"{category}: {file_paths[0]}"
+                else:
+                    description = f"{category}: Multiple files updated ({len(file_paths)} files)"
+                self.add_entry(change_type, description)
+
+        return True
+
     def create_release(self, version_bump="PATCH"):
         """Create a new release from the [Unreleased] section."""
         content = self.read_changelog()
@@ -195,73 +285,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
         
         return True
 
-def print_usage():
-    """Print usage instructions."""
-    print("""
+def main():
+    manager = ChangelogManager()
+    
+    if len(sys.argv) == 1:
+        # Default behavior: analyze changes and update changelog
+        if manager.analyze_and_update():
+            print("Successfully updated changelog with detected changes")
+        return
+    
+    command = sys.argv[1].lower()
+    
+    if command == "release":
+        version_bump = sys.argv[2].upper() if len(sys.argv) > 2 else "PATCH"
+        if manager.create_release(version_bump):
+            print(f"Successfully created new release")
+    else:
+        print("""
 Usage:
-    Add entry:    cl add <type> "<description>" [version_bump]
-    New release:  cl release [version_bump]
-
-Types:
-    a, added     - Added
-    c, changed   - Changed
-    d, dep       - Deprecated
-    r, removed   - Removed
-    f, fixed     - Fixed
-    s, sec       - Security
+    Update changelog:  cl
+    Create release:    cl release [version_bump]
 
 Version Bump:
     major    - Breaking changes (1.0.0)
     minor    - New features (0.1.0)
     patch    - Bug fixes (0.0.1) [default]
-
-Example:
-    cl add a "New feature X" minor
-    cl release major
-    """)
-
-def parse_change_type(type_str):
-    """Convert short codes to full change types."""
-    type_map = {
-        'a': 'Added',
-        'c': 'Changed',
-        'd': 'Deprecated',
-        'r': 'Removed',
-        'f': 'Fixed',
-        's': 'Security',
-        'added': 'Added',
-        'changed': 'Changed',
-        'dep': 'Deprecated',
-        'removed': 'Removed',
-        'fixed': 'Fixed',
-        'sec': 'Security'
-    }
-    return type_map.get(type_str.lower(), type_str)
-
-def main():
-    manager = ChangelogManager()
-    
-    if len(sys.argv) < 2:
-        print_usage()
-        return
-    
-    command = sys.argv[1].lower()
-    
-    if command == "add" and len(sys.argv) >= 4:
-        change_type = parse_change_type(sys.argv[2])
-        description = sys.argv[3]
-        version_bump = sys.argv[4].upper() if len(sys.argv) > 4 else "PATCH"
-        
-        if manager.add_entry(change_type, description, version_bump):
-            print(f"Successfully added {change_type} entry: {description}")
-    
-    elif command == "release":
-        version_bump = sys.argv[2].upper() if len(sys.argv) > 2 else "PATCH"
-        if manager.create_release(version_bump):
-            print(f"Successfully created new release")
-    
-    else:
-        print_usage()
+        """)
 
 if __name__ == "__main__":
     main()
