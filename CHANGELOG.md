@@ -23,6 +23,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added
 
+- None
+
+### Changed
+
+- None
+
+### Deprecated
+
+- None
+
+### Removed
+
+- None
+
+### Fixed
+
+- None
+
+### Security
+
+- None
+
+## [1.0.0] - 2024-01-24
+
+### Added in [1.0.0]
+
 - New Analysis Content:
   - Deception analysis with Unimodel theory implementation
   - AI Research including ELIZA program implementation
@@ -46,31 +72,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   - Semantic versioning support
   - Change type validation and version bumping
 
-### Changed
+### Changed in [1.0.0]
 
 - Restructured documentation hierarchy for better organization
 - Enhanced EEG analysis documentation with new research papers
 - Improved AI research documentation with practical implementations
 - Updated changelog format and organization
-### Deprecated
-
-- None
-
-### Removed
-
-- None
-
-### Fixed
-
-- None
-
-### Security
-
-- None
 
 ## [0.1.0] - 2024-10-27
 
-### Added [v0.1.0]
+### Added in [0.1.0]
 
 - Initial repository setup
 - Basic folder structure
