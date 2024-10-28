@@ -84,4 +84,3 @@ A key experiment involves observing how long users maintain the belief that ELIZ
 Weizenbaum highlights that while ELIZA’s design offers insights into NLP and HCI, future advancements would require models that move beyond keyword-based responses toward genuine comprehension and memory storage. He envisions more sophisticated conversational agents that could eventually develop a knowledge base through interactions, making them useful for tasks requiring memory and context-sensitive responses.
 
 ***
-

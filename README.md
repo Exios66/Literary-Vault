@@ -17,15 +17,14 @@
 [![PDFs - PDF Vault](https://img.shields.io/badge/PDFs-PDF_Vault-blueviolet?logo=visual-studio-code)](/pdfs)
 </div>
 
-
 ## License
 
 Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) 
-[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) 
-[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) 
-[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) 
-[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/)
+[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases)
+[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
+[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
 A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
@@ -33,7 +32,7 @@ A comprehensive repository for organizing and analyzing research papers, particu
 ## 📚 Overview
 
 ![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
 Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
@@ -124,7 +123,7 @@ Within this directory, you will find comprehensive documents contributing to the
 
 We actively encourage contributions to enhance the richness and breadth of our repository. Anyone interested in participating should adhere to the guidelines specified in the `CONTRIBUTING.md` file. This document outlines vital processes and procedures, ensuring consistent quality. Whether you're submitting new research analyses, suggesting corrections, or expanding upon existing datasets, your input is invaluable.
 
-#### Contribution Process:
+#### Contribution Process
 
 1. **Review Guidelines**: Before submitting any work, thoroughly review the guidelines in the `CONTRIBUTING.md` file to understand submission requirements and standards.
 2. **Prepare Your Submission**: Ensure your research or correction suggestion is well-documented, with clear references and adherence to academic integrity.
@@ -157,11 +156,12 @@ External resources are important for broadening the perspective of your research
 
 1. Navigate to the `pdfs/` directory for original research papers
 2. Find corresponding analyses in the `analysis/` directory
-3.  Use the changelog update script for tracking changes:
+3. Use the changelog update script for tracking changes:
 
     ```bash
     python scripts/update_changelog.py add "Added" "New analysis for Paper X"
     ```
+
 4. Follow the contribution guidelines when adding new content
 
 ## 📝 Contributing
@@ -241,10 +241,11 @@ For more detailed support or inquiries, we encourage you to get in touch through
 ***
 
 ---
+
 icon: book-atlas
 description: Landing Page to the Literary Cold Storage Vault.
 cover: >-
-  https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
+  <https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85>
 coverY: 0
 layout:
   cover:
