@@ -1,0 +1,9 @@
+id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Category,Topic Focus
+521,What is 7 + 8?,15,16,14,17,0,Mathematics,Arithmetic
+522,What is 12 * 12?,144,132,120,156,1,Mathematics,Arithmetic
+523,What is 15% of 200?,30,25,35,40,2,Mathematics,Arithmetic
+524,What is the square root of 169?,13,14,12,15,3,Mathematics,Arithmetic
+525,Solve for x: 2x + 5 = 15,5,10,3,7,0,Mathematics,Algebra
+526,Solve for y: 3y - 9 = 6,5,3,4,6,1,Mathematics,Algebra
+527,What is the quadratic formula?,(-b ± √(b²-4ac)) / 2a,(b ± √(b²-4ac)) / 2a,(b² ± 2ac) / 2a,(b ± √(4ac)) / 2a,2,Mathematics,Algebra
+528,Expand: (a + b)²,a² + 2ab + b²,a² - 2ab + b²,a² + ab + b²,2a + b²,3,Mathematics,Algebra
