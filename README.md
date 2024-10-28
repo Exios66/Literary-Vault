@@ -26,9 +26,6 @@ layout:
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 [![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
-[![License](https://img.shields.io/badge/License-MIT-blueviolet)](#license)
-[![issues - Literary-Vault](https://img.shields.io/github/issues/Exios66/Literary-Vault)](https://github.com/Exios66/Literary-Vault/issues)
-
 <div align="center">
 
 </div>
@@ -247,6 +244,9 @@ Acknowledgment of authors who have provided research papers that support this pr
 Special thanks to individuals and organizations for their invaluable contributions and support.
 
 ***
+
+[![License](https://img.shields.io/badge/License-MIT-blueviolet)](#license)
+[![issues - Literary-Vault](https://img.shields.io/github/issues/Exios66/Literary-Vault)](https://github.com/Exios66/Literary-Vault/issues)
 
 ### For Questions or Contributions
 
