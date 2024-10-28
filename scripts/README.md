@@ -4,40 +4,70 @@ This directory contains utility scripts for managing the Literary Vault reposito
 
 ## Available Scripts
 
-### update_changelog.py
+### Changelog Management (cl)
 
-A Python script for maintaining the project's CHANGELOG.md file.
+A streamlined tool for maintaining the project's CHANGELOG.md file with automatic semantic versioning.
 
-#### Usage
+#### Quick Usage
 
 ```bash
-# Add a new changelog entry
-python update_changelog.py add <type> "<description>"
+# Add new entry
+./cl add <type> "<description>" [version_bump]
 
-# Create a new release
-python update_changelog.py release <version>
+# Create new release
+./cl release [version_bump]
 ```
 
-#### Entry Types
+#### Change Types
 
-- Added
-- Changed
-- Deprecated
-- Removed
-- Fixed
-- Security
+Short codes are supported for convenience:
+
+- `a` or `added` - Added
+- `c` or `changed` - Changed
+- `d` or `dep` - Deprecated
+- `r` or `removed` - Removed
+- `f` or `fixed` - Fixed
+- `s` or `sec` - Security
+
+#### Version Bump Options
+
+- `major` - Breaking changes (1.0.0)
+- `minor` - New features (0.1.0)
+- `patch` - Bug fixes (0.0.1) [default]
 
 #### Examples
 
 ```bash
-# Add new feature
-python update_changelog.py add "Added" "New analysis template for EEG papers"
+# Add new feature (minor version bump)
+./cl add a "New analysis template" minor
 
-# Create release
-python update_changelog.py release "1.0.0"
+# Fix a bug (patch version bump)
+./cl add f "Fixed formatting issue" patch
+
+# Create new release with major version bump
+./cl release major
+
+# Quick add with default patch bump
+./cl add a "Added new documentation"
 ```
+
+#### Features
+
+- Automatic semantic versioning
+- Short command aliases
+- Maintains Keep a Changelog format
+- Prevents empty releases
+- Automatic section management
 
 ## Requirements
 
 - Python 3.x
 - No additional dependencies required
+
+## Installation
+
+The scripts are automatically executable. You can run them directly from the scripts directory:
+
+```bash
+cd scripts
+./cl add a "New feature"

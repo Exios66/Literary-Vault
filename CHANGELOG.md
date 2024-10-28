@@ -15,6 +15,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - PDF storage system
 - External resources section
 - Documentation for main directories
+- Initial repository setup with documentation and structure
+- Added new documentation
+- New PDF folders for Deception & AI Research
+- Updated README with new sections
+- Added new analysis template
+- Fixed formatting issue
+- Added changelog management script and documentation
+- Added semantic versioning support
+- Added change type validation and version bumping
 
 ### Changed
 
