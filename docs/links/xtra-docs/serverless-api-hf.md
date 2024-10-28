@@ -1,5 +1,13 @@
+---
+icon: face-smiling-hands
+cover: >-
+  https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwzfHxjb2RlfGVufDB8fHx8MTczMDA1Mzc4M3ww&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # Serverless Inference API
-![](api-inference.png)   
+
+![](api-inference.png)
 
 **Instant Access to thousands of ML Models for Fast Prototyping**
 
@@ -14,8 +22,7 @@ The Serverless Inference API offers a fast and free way to explore thousands of 
 * **Document Embeddings:** Build search and retrieval systems with SOTA embeddings.
 * **Classical AI Tasks:** Ready-to-use models for text classification, image classification, speech recognition, and more.
 
-⠀
-⚡ **Fast and Free to Get Started**: The Inference API is free with higher rate limits for PRO users. For production needs, explore [Inference Endpoints](https://ui.endpoints.huggingface.co/) for dedicated resources, autoscaling, advanced security features, and more.
+⠀ ⚡ **Fast and Free to Get Started**: The Inference API is free with higher rate limits for PRO users. For production needs, explore [Inference Endpoints](https://ui.endpoints.huggingface.co/) for dedicated resources, autoscaling, advanced security features, and more.
 
 ## Key Benefits
 
@@ -24,6 +31,7 @@ The Serverless Inference API offers a fast and free way to explore thousands of 
 * 🔧 **Developer-Friendly:** Simple requests, fast responses.
 
 ⠀
+
 ## Main Features
 
 * Leverage over 800,000+ models from different open-source libraries (transformers, sentence transformers, adapter transformers, diffusers, timm, etc.).
@@ -33,6 +41,7 @@ The Serverless Inference API offers a fast and free way to explore thousands of 
 * Production-grade platform without the hassle: built-in automatic scaling, load balancing and caching.
 
 ⠀
+
 ## Contents
 
 The documentation is organized into two sections:
@@ -41,15 +50,13 @@ The documentation is organized into two sections:
 * **API Reference** Dive into task-specific settings and parameters.
 
 ⠀
+
 ## Inference Playground
 
-If you want to get started quickly with [Chat Completion models](https://huggingface.co/models?inference=warm&amp;other=conversational&amp;sort=trending) use the Inference Playground to quickly text and compare models against your prompts.
+If you want to get started quickly with [Chat Completion models](https://huggingface.co/models?inference=warm\&other=conversational\&sort=trending) use the Inference Playground to quickly text and compare models against your prompts.
 
- ![](9_Tgf0Tv65srhBirZQMTp.png)  
+![](9\_Tgf0Tv65srhBirZQMTp.png)
 
 ## Serious about AI in your organisation? Build faster with the Hugging Face Enterprise Hub.
 
- ![](64zNL-65xyIpRqWHe2iD0.png) 
-[< > Update on GitHub](https://github.com/huggingface/hub-docs/blob/main/docs/api-inference/index.md) 
-[Serverless Inference API](https://huggingface.co/docs/api-inference/index)
-
+![](64zNL-65xyIpRqWHe2iD0.png) [< > Update on GitHub](https://github.com/huggingface/hub-docs/blob/main/docs/api-inference/index.md) [Serverless Inference API](https://huggingface.co/docs/api-inference/index)

@@ -1,0 +1,15 @@
+# Table of contents
+
+* [The Literary Vault Docs](README.md)
+* [Table of contents](summary.md)
+* [Analysis](analysis/README.md)
+  * [Ai-Research](analysis/ai-research/README.md)
+    * [ELIZA Program](analysis/ai-research/eliza-program.md)
+    * [Traits-in-llms](Analysis/Ai-Research/Traits-in-llms.md)
+  * [Deception](analysis/deception/README.md)
+    * [Unimodel](Analysis/Deception/Unimodel.md)
+  * [EEG](analysis/eeg/README.md)
+    * [Cognitive Load Estimation in VR Flight Simulator](Analysis/EEG/cognitive-load-VR.md)
+* [links](links/README.md)
+  * [xtra-docs](links/xtra-docs/README.md)
+    * [Serverless Inference API](links/xtra-docs/serverless-api-hf.md)
