@@ -57,6 +57,8 @@ A comprehensive repository for organizing and analyzing research papers, particu
 
 ## 📚 Overview
 
+![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet)
+
 Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
 
 ## 🗂️ Repository Structure
