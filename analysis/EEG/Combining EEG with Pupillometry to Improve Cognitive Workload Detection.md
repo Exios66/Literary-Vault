@@ -11,6 +11,8 @@
 
 ## Key Details
 
+### Summary
+
 #### Abstract Summary
 
 The article investigates the integration of EEG (electroencephalography) with pupillometry to improve the detection of cognitive workload in real-time. Traditional neuroimaging tools like EEG and fMRI face limitations in accuracy and latency when measuring cognitive workload. This study combines EEG signals with data from pupil dilation, which has been correlated with cognitive processes, aiming to refine cognitive workload monitoring. The authors conducted an experiment where EEG and pupillometry data were collected from participants performing cognitive tasks (e.g., mental arithmetic) and relaxed states to assess the combined effectiveness of these signals.

@@ -1,6 +1,7 @@
 ---
 hidden: true
 icon: left-from-bracket
+title: Changelog
 layout:
   title:
     visible: true
@@ -13,8 +14,6 @@ layout:
   pagination:
     visible: true
 ---
-
-# Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -42,31 +41,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed
 
-* None
+- None
 
 ### Deprecated
 
-* None
+- None
 
 ### Removed
 
-* None
+- None
 
 ### Fixed
 
-* None
+- None
 
 ### Security
 
-* None
+- None
 
 ## \[0.1.0] - 2024-10-27
 
 ### Added \[v0.1.0]
 
-* Initial repository setup
-* Basic folder structure
-* README.md with project overview
-* Analysis directory for research papers
-* PDF storage system
-* External resources section
+- Initial repository setup
+- Basic folder structure
+- README.md with project overview
+- Analysis directory for research papers
+- PDF storage system
+- External resources section

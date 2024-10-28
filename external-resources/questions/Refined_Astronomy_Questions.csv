@@ -1,0 +1,17 @@
+id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Category,Topic Focus
+521,What planet is closest to the Sun?,Mercury,Venus,Earth,Mars,0,Astronomy,Planets
+522,Which planet has the most moons?,Jupiter,Saturn,Mars,Uranus,1,Astronomy,Planets
+523,What is the hottest planet in our solar system?,Venus,Mercury,Mars,Jupiter,2,Astronomy,Planets
+524,What planet is known for having a Great Red Spot?,Jupiter,Saturn,Mars,Neptune,3,Astronomy,Planets
+525,What is the name of Earth's moon?,Moon,Europa,Titan,Ganymede,0,Astronomy,Moons
+526,Which moon has a thick atmosphere?,Titan,Europa,Ganymede,Io,1,Astronomy,Moons
+527,Which moon orbits Jupiter?,Europa,Titan,Enceladus,Charon,2,Astronomy,Moons
+528,What is the largest moon in the solar system?,Ganymede,Titan,Io,Callisto,3,Astronomy,Moons
+529,What galaxy is Earth part of?,Milky Way,Andromeda,Whirlpool,Sombrero,0,Astronomy,Galaxies
+530,What is the closest galaxy to the Milky Way?,Andromeda,Triangulum,Pinwheel,Cartwheel,1,Astronomy,Galaxies
+531,Which galaxy is known for its unique ring shape?,Cartwheel,Whirlpool,Andromeda,Milky Way,2,Astronomy,Galaxies
+532,What type of galaxy is the Milky Way?,Spiral,Elliptical,Irregular,Lenticular,3,Astronomy,Galaxies
+533,What is a star's explosion called?,Supernova,Pulsar,Nova,Quasar,0,Astronomy,Stellar Events
+534,What is the end stage of a massive star?,Black Hole,White Dwarf,Red Giant,Neutron Star,1,Astronomy,Stellar Events
+535,What is the bright flash at the end of a star's life?,Supernova,Hypernova,Gamma Burst,Solar Flare,2,Astronomy,Stellar Events
+536,What is the name of a rapidly rotating neutron star?,Pulsar,Quasar,Magnetar,Nova,3,Astronomy,Stellar Events

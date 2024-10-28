@@ -1,0 +1,17 @@
+id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Category,Topic Focus
+521,What is the capital of Canada?,Ottawa,Toronto,Vancouver,Montreal,0,Geography,Capital Cities
+522,What is the capital of Egypt?,Cairo,Alexandria,Giza,Luxor,1,Geography,Capital Cities
+523,What is the capital of Switzerland?,Bern,Zurich,Geneva,Lucerne,2,Geography,Capital Cities
+524,What is the southernmost capital city in the world?,Wellington,Buenos Aires,Cape Town,Canberra,3,Geography,Capital Cities
+525,What is the largest desert in the world?,Sahara,Arabian,Gobi,Kalahari,0,Geography,Landforms
+526,What river runs through Baghdad?,Tigris,Euphrates,Jordan,Nile,1,Geography,Landforms
+527,What mountain range separates Europe from Asia?,Ural Mountains,Alps,Rockies,Andes,2,Geography,Landforms
+528,What is the deepest oceanic trench?,Mariana Trench,Java Trench,Puerto Rico Trench,Tonga Trench,3,Geography,Landforms
+529,Which country has the most lakes?,Canada,Brazil,USA,Finland,0,Geography,Countries & Demographics
+530,Which country has the largest population in Africa?,Nigeria,Egypt,South Africa,Ethiopia,1,Geography,Countries & Demographics
+531,Which country has the highest population density?,Monaco,Singapore,Bangladesh,Japan,2,Geography,Countries & Demographics
+532,Which is the oldest continuously inhabited city?,Jericho,Damascus,Byblos,Athens,3,Geography,Countries & Demographics
+533,What is the largest continent by land area?,Asia,Africa,North America,Europe,0,Geography,Continents
+534,Which continent is home to the Amazon Rainforest?,South America,Africa,Asia,North America,1,Geography,Continents
+535,What continent is entirely surrounded by water?,Australia,Europe,Africa,South America,2,Geography,Continents
+536,What continent has no permanent residents?,Antarctica,Africa,Australia,South America,3,Geography,Continents
