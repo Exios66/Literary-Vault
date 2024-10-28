@@ -1,25 +1,3 @@
----
-icon: book-atlas
-description: Landing Page to the Literary Cold Storage Vault.
-cover: >-
-  https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
-coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Literary Vault
 
 [![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
@@ -259,3 +237,25 @@ For inquiries or if you wish to contribute, please consider opening an issue in 
 For more detailed support or inquiries, we encourage you to get in touch through our official communication channels. Please feel free to reach out via email, contact forms on our website, or by calling our customer service hotline. Our dedicated team is here to assist you with any questions or issues you may have. Your satisfaction is important to us, and we look forward to providing you with the help you need
 
 ***
+
+---
+icon: book-atlas
+description: Landing Page to the Literary Cold Storage Vault.
+cover: >-
+  https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
