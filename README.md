@@ -5,7 +5,7 @@
 
 <i>Dash badge</i>
 
-<a href="https://morningstar-developments.gitbook.io/morningstar-neuroscience-research-docs/">![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-Bright green)</a>
+<a href="https://morningstar-developments.gitbook.io/morningstar-neuroscience-research-docs/">![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)</a>
 
 <div align="center">
 
