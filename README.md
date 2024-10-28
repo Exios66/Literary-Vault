@@ -2,6 +2,7 @@
 
 [![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
+[![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-Bright green)](https://morningstar-developments.gitbook.io/morningstar-neuroscience-research-docs/)
 
 <div align="center">
 
