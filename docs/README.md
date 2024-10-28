@@ -25,6 +25,18 @@ layout:
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 [![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-docs)
 
+***
+
+## License
+
+Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/)
+[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
+[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+
 ## 🗂️ Repository Structure
 
 ```bash
