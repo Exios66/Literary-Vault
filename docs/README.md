@@ -23,7 +23,7 @@ layout:
 [![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
-<a href="https://morningstar-developments.gitbook.io/morningstar-docs">![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)</a>
+[![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-docs)
 
 <div align="center">
 
@@ -34,18 +34,21 @@ layout:
 <div align="center">
 
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/docs/ "Go to project documentation")
-[![PDFs - PDF Vault](https://img.shields.io/badge/PDFs-PDF_Vault-blueviolet?logo=visual-studio-code)](/pdfs)
+[![PDFs - PDF Vault](https://img.shields.io/badge/PDFs-PDF_Vault-blueviolet?logo=visual-studio-code)](/pdfs/ "Go to PDF Vault")
+[![Analysis - Research Analysis](https://img.shields.io/badge/Analysis-Research_Analysis-blueviolet?logo=visual-studio-code)](/analysis/ "Go to Research Analysis")
+[![External Resources - External Resources](https://img.shields.io/badge/External_Resources-External_Resources-blueviolet?logo=visual-studio-code)](/external-resources/ "Go to External Resources")
+[![Scripts - Utility Scripts](https://img.shields.io/badge/Scripts-Utility_Scripts-blueviolet?logo=visual-studio-code)](/scripts/ "Go to Utility Scripts")
+![Account](https://badge.ttsalpha.com/api?icon=github&label=Account&status=Exios66&color=orange&iconColor=white)
 </div>
-
 
 ## License
 
 Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) 
-[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) 
-[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) 
-[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) 
-[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/)
+[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases)
+[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
+[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
 A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
@@ -53,7 +56,7 @@ A comprehensive repository for organizing and analyzing research papers, particu
 ## 📚 Overview
 
 ![maintained - yes](https://img.shields.io/badge/maintained-yes-blueviolet)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![forks - Literary-Vault](https://img.shields.io/github/forks/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 
 Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
@@ -102,6 +105,8 @@ Contains utility scripts used for processing, analyzing, and organizing the rese
 
 ## Research Archive
 
+![Research](https://badge.ttsalpha.com/api?icon=github&label=Research&status=Storage&color=yellow&iconColor=white)
+
 ### Overview
 
 This repository contains a comprehensive collection of markdown files featuring detailed analyses of various research papers. The analyses are carefully organized by topic to facilitate easy access and cross-referencing. This structure enables researchers and students to efficiently explore diverse areas of research and gain valuable insights.
@@ -144,7 +149,7 @@ Within this directory, you will find comprehensive documents contributing to the
 
 We actively encourage contributions to enhance the richness and breadth of our repository. Anyone interested in participating should adhere to the guidelines specified in the `CONTRIBUTING.md` file. This document outlines vital processes and procedures, ensuring consistent quality. Whether you're submitting new research analyses, suggesting corrections, or expanding upon existing datasets, your input is invaluable.
 
-#### Contribution Process:
+#### Contribution Process
 
 1. **Review Guidelines**: Before submitting any work, thoroughly review the guidelines in the `CONTRIBUTING.md` file to understand submission requirements and standards.
 2. **Prepare Your Submission**: Ensure your research or correction suggestion is well-documented, with clear references and adherence to academic integrity.
@@ -175,13 +180,16 @@ External resources are important for broadening the perspective of your research
 
 ## 🔧 Usage
 
+![Usage](https://badge.ttsalpha.com/api?icon=Gitlab&label=Usage&status=Instructions&color=orange&iconColor=orange)
+
 1. Navigate to the `pdfs/` directory for original research papers
 2. Find corresponding analyses in the `analysis/` directory
-3.  Use the changelog update script for tracking changes:
+3. Use the changelog update script for tracking changes:
 
     ```bash
     python scripts/update_changelog.py add "Added" "New analysis for Paper X"
     ```
+
 4. Follow the contribution guidelines when adding new content
 
 ## 📝 Contributing
@@ -261,10 +269,11 @@ For more detailed support or inquiries, we encourage you to get in touch through
 ***
 
 ---
+
 icon: book-atlas
 description: Landing Page to the Literary Cold Storage Vault.
 cover: >-
-  https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
+  <https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85>
 coverY: 0
 layout:
   cover:

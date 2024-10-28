@@ -27,7 +27,7 @@ This study compares two dominant theories in attitude formation and persuasion: 
 
 ---
 
-# Detailed Breakdown of the Article's Content
+## Detailed Breakdown of the Article's Content
 
 ### Introduction
 
@@ -79,4 +79,58 @@ For marketing practitioners, ELM offers a flexible yet structured approach to ta
 
 ---
 
-# Questions and Answers
+## Questions and Answers
+
+1. **What are the key differences between ELM and the Unimodel?**
+   - ELM proposes dual processing routes (central and peripheral) while the Unimodel suggests a single processing route
+   - ELM distinguishes between high and low cognitive effort processing, whereas the Unimodel focuses on perceived relevance
+   - ELM better accounts for varying levels of cognitive engagement and motivation
+   - The Unimodel rejects the central-peripheral distinction that is fundamental to ELM
+
+2. **Why do the authors favor ELM over the Unimodel?**
+   - ELM provides better explanatory power for diverse persuasion outcomes
+   - It offers more practical utility for marketing communications
+   - ELM can account for varying levels of cognitive engagement
+   - It better explains how peripheral cues and argument quality interact
+   - The model provides clearer guidance for tailoring messages based on audience engagement
+
+3. **What are the main criticisms of ELM discussed in the paper?**
+   - Ambiguity in defining when variables act centrally or peripherally
+   - The model is more descriptive than predictive
+   - Difficulty in making a priori predictions about outcomes
+   - Flexibility in the model that some view as a weakness
+
+4. **How does ELM inform marketing practice?**
+   - Helps tailor messages based on consumer involvement levels
+   - Guides the use of peripheral cues for low-involvement products
+   - Informs argument development for high-involvement products
+   - Assists in selecting appropriate persuasion tactics
+   - Enables better matching of message type to audience engagement
+
+5. **What are the limitations of the Unimodel in explaining persuasion?**
+   - Cannot fully account for varying levels of cognitive engagement
+   - Lacks explanation for how different types of cues interact
+   - Provides insufficient guidance for marketing communications
+   - Does not adequately address the role of motivation in processing
+   - Fails to capture the nuanced nature of persuasion
+
+6. **How does ELM explain attitude change in marketing contexts?**
+   - Through central route processing for highly involved consumers
+   - Via peripheral route processing for low-involvement situations
+   - By accounting for both argument quality and peripheral cues
+   - Through consideration of consumer motivation and ability to process
+   - By explaining how different message elements influence attitudes
+
+7. **What practical implications does this analysis have for marketers?**
+   - Need to assess audience involvement levels
+   - Importance of matching message type to processing route
+   - Value of using appropriate cues based on product type
+   - Necessity of considering both argument quality and peripheral elements
+   - Benefits of strategic message design based on audience characteristics
+
+8. **How do the two routes to persuasion differ in ELM?**
+   - Central route involves high cognitive effort and leads to enduring attitude change
+   - Peripheral route involves low effort and results in temporary attitude change
+   - Central processing focuses on message arguments
+   - Peripheral processing relies more on superficial cues
+   - Different routes are activated based on motivation and ability to process
