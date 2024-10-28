@@ -6,8 +6,12 @@ This directory contains the analysis of research papers and a comprehensive lite
 
 ```bash
 analysis/
-├── pdfs/                 # Research papers and publications
-└── README.md            # This file
+├── EEG/                 # EEG-related research analysis
+│   ├── Cognitive-Load-Estimation-in-VR-Flight-Simulator.md
+│   ├── Combining-EEG-with-Pupillometry.md
+│   └── Oxford-Handbook.md
+├── pdfs/                # Research papers and publications
+└── README.md           # This file
 ```
 
 ## Literature Review
@@ -21,13 +25,20 @@ The literature review focuses on the following key areas:
 
 ### Key Papers
 
-1. **Combining EEG with Pupillometry to Improve Cognitive Workload Detection**
-   - Explores multimodal approaches for more accurate cognitive workload assessment
-   - Demonstrates the complementary nature of EEG and pupillometry data
+1. **Combining EEG with Pupillometry to Improve Cognitive Workload Detection** (Rozado & Duenser, 2015)
+   - Demonstrates significant improvement in workload detection using multimodal approach
+   - Achieved 17% error rate when combining EEG and pupillometry
+   - Published in Computer (IEEE)
 
-2. **Zammouri et al. (2017)**
-   - Investigates cognitive workload detection methodologies
-   - Published in Journal of Physics: Conference Series 904
+2. **Cognitive Load Estimation in VR Flight Simulator** (Hebbar et al., 2023)
+   - Investigates VR-based cognitive load assessment using ocular and EEG data
+   - Shows strong correlation between physiological metrics and task difficulty
+   - Published in Journal of Eye Movement Research
+
+3. **The Oxford Handbook of Event-Related Potential Components** (Kappenman & Luck, 2011)
+   - Comprehensive reference for ERP research and methodology
+   - Covers component isolation, analysis techniques, and applications
+   - Essential resource for EEG/ERP experimental design
 
 ## Analysis Goals
 
@@ -43,6 +54,23 @@ The literature review focuses on the following key areas:
 - Machine learning approaches for cognitive state classification
 - Real-time monitoring capabilities
 - Practical implementation considerations
+- VR applications in cognitive load assessment
+- Multimodal signal integration strategies
+
+## Key Findings
+
+1. **Multimodal Superiority**
+   - Combining EEG with pupillometry significantly improves workload detection accuracy
+   - Error rates reduced by ~30% compared to single-modality approaches
+
+2. **VR Integration**
+   - VR environments provide controlled conditions for cognitive load assessment
+   - Enable realistic simulation while maintaining measurement accuracy
+
+3. **Methodological Considerations**
+   - Need for careful control of external factors (e.g., lighting for pupillometry)
+   - Importance of proper component isolation in EEG analysis
+   - Value of standardized experimental protocols
 
 ## Contributing
 
@@ -52,6 +80,7 @@ When adding new papers or analyses:
 2. Update this README with relevant findings
 3. Maintain consistent documentation format
 4. Link to related work and cross-references
+5. Follow the established markdown templates for analysis documents
 
 ## Future Work
 
@@ -59,6 +88,8 @@ When adding new papers or analyses:
 - Investigate emerging multimodal approaches
 - Document implementation challenges and solutions
 - Develop standardized evaluation metrics
+- Explore applications in different domains (aviation, healthcare, etc.)
+- Assess impact of VR technology on measurement accuracy
 
 ---
 
