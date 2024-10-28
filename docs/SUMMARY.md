@@ -2,7 +2,6 @@
 
 * [The Literary Vault Docs](README.md)
 * [API ENDPOINTS -- QUESTION RECALL](https://exios66.github.io/Literary-Vault/)
-* [Table of contents](summary.md)
 * [Analysis](analysis/README.md)
   * [Ai-Research](analysis/ai-research/README.md)
     * [ELIZA Program](analysis/ai-research/eliza-program.md)
