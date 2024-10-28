@@ -1,71 +1,109 @@
 # Literary Vault
 
-A comprehensive repository for literary analysis, document storage, and textual research.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases)
+[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+
+A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
 
 ## 📚 Overview
 
-Literary Vault is a structured repository for organizing, analyzing, and storing literary documents, research papers, and analytical content. It provides a systematic approach to managing literary resources and their associated analyses.
+Literary Vault serves as a structured digital library and analysis platform for academic research papers and scientific literature. It provides a systematic approach to storing, analyzing, and referencing research materials while maintaining proper documentation and organization.
 
 ## 🗂️ Repository Structure
 
+```bash
 literary-vault/
-├── pdfs/                  # Original research papers and documents
-│   ├── pdf.md            # PDF directory documentation
-│   └── research_papers/  
-├── analysis/             # Analysis of research papers
-│   └── pdfs/            # Analyzed versions of papers
-└── README.md            # Repository documentation
+├── analysis/              # Detailed analysis of research papers
+│   ├── AI-Research/      # AI-related research analysis
+│   ├── EEG/             # EEG research analysis
+│   └── Manipulation-Deception/ # Studies on manipulation/deception
+├── docs/                 # Repository documentation
+├── external-resources/   # Additional resources and references
+│   └── questions/       # Research questions and materials
+├── pdfs/                # Original research papers
+│   └── EEG/            # EEG-related papers
+├── scripts/             # Utility scripts
+├── CHANGELOG.md         # Project change history
+├── CONTRIBUTING.md      # Contribution guidelines
+├── LICENSE             # MIT License
+└── README.md           # Repository documentation
+```
 
-## 📑 Contents
-
-### PDFs Directory
-
-Currently contains:
-
-- Zammouri (2017) - Journal of Physics: Conference Series 904
-- Directory documentation (pdf.md)
+## 📑 Main Components
 
 ### Analysis Directory
 
-Contains analyzed versions of papers including:
+Contains markdown files with detailed analysis of research papers, organized by topic:
 
-- Zammouri (2017) analysis
-- "Combining EEG with Pupillometry to Improve Cognitive Workload Detection" analysis
-- Analysis documentation (pdf.md)
+- EEG Research
+- AI Research
+- Manipulation and Deception Studies
+
+### PDFs Directory
+
+Stores original research papers and documents, organized by subject area:
+
+- EEG Studies
+- Research Papers
+- Academic Publications
+
+### External Resources
+
+Additional materials supporting research and analysis:
+
+- Research Questions
+- Mathematical Resources
+- Reference Materials
 
 ## 🔧 Usage
 
 1. Navigate to the `pdfs/` directory for original research papers
-2. Find corresponding analyses in the `analysis/pdfs/` directory
-3. Each directory contains a `pdf.md` file with specific documentation
-4. Follow naming conventions when adding new papers
+2. Find corresponding analyses in the `analysis/` directory
+3. Use the changelog update script for tracking changes:
+
+   ```bash
+   python scripts/update_changelog.py add "Added" "New analysis for Paper X"
+   ```
+
+4. Follow the contribution guidelines when adding new content
 
 ## 📝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/NewAnalysis`)
-3. Commit your changes (`git commit -m 'Add analysis for Paper X'`)
-4. Push to the branch (`git push origin feature/NewAnalysis`)
-5. Open a Pull Request
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 ## 📋 Guidelines
 
-- Store original papers in the `pdfs/` directory
-- Place analyses in the `analysis/pdfs/` directory
-- Maintain consistent file naming
-- Include proper citations
-- Update directory documentation files
+- Maintain consistent file organization
+- Follow naming conventions
+- Update changelog when adding new content
+- Include proper citations and references
+- Keep documentation up to date
 
-## 🔒 Security
+## 🔒 Security and Licensing
 
+- Repository is under MIT License
 - Respect copyright and fair use guidelines
-- Ensure proper attribution for all materials
-- Maintain version control
-- Regular repository backups
+- Maintain proper attribution
+- Regular backups recommended
 
-## 📄 License
+## 🛠 Scripts
 
-This repository is licensed under MIT License - see the LICENSE.md file for details.
+### Changelog Management
+
+Use the provided Python script to maintain the changelog:
+
+```bash
+# Add new entries
+python scripts/update_changelog.py add <type> "description"
+
+# Create new release
+python scripts/update_changelog.py release <version>
+```
 
 ## 📞 Contact
 
@@ -73,10 +111,12 @@ For questions or contributions, please open an issue in the repository.
 
 ## 🙏 Acknowledgments
 
-- Original paper authors
-- Research contributors
-- Academic institutions providing access to papers
+- Research paper authors
+- Contributing analysts
+- Academic institutions
+
+## Last Updated
+
+2024-10-27
 
 ---
-
-*Last Updated: [Current Date]*
