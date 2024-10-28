@@ -1,13 +1,28 @@
+---
+description: Landing Page to the Literary Cold Storage Vault.
+icon: book-atlas
+cover: >-
+  https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Literary Vault
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases)
-[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
-[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
-[![Discord](https://img.shields.io/discord/1266444444444444444?label=Discord&logo=discord&logoColor=white&color=7389D8&labelColor=6A7EC2)](https://discord.gg/nxyBq8YaZD)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) [![GitHub release](https://img.shields.io/github/release/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/releases) [![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) [![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) [![Discord](https://img.shields.io/discord/1266444444444444444?label=Discord\&logo=discord\&logoColor=white\&color=7389D8\&labelColor=6A7EC2)](https://discord.gg/nxyBq8YaZD)
 
 A comprehensive repository for organizing and analyzing research papers, particularly focused on EEG, AI Research, and related scientific literature.
 
@@ -39,38 +54,106 @@ literary-vault/
 
 ### Analysis Directory
 
-Contains markdown files with detailed analysis of research papers, organized by topic:
+### External Resources Directory
 
-- EEG Research
-- AI Research
-- Manipulation and Deception Studies
+This directory houses additional materials and references that support and expand upon the research topics covered in the repository. It includes:
+
+* Research Questions
+* Supplementary Materials
+
+### Scripts Directory
+
+Contains utility scripts used for processing, analyzing, and organizing the research papers and associated data. These are essential for automating tasks and ensuring efficient workflow management.
+
+### Documentation Files
+
+* `CHANGELOG.md`: Records the project's development history, detailing updates, changes, and improvements over time.
+* `CONTRIBUTING.md`: Provides guidelines for contributing to the repository, including coding standards and submission instructions.
+* `LICENSE`: Details the terms and conditions under which the repository's contents can be used, modified, and shared.
+* `README.md`: Serves as the main introduction and guide to the repository, offering an overview of its purpose and structure.
+
+## Research Archive
+
+### Overview
+
+This repository contains a comprehensive collection of markdown files featuring detailed analyses of various research papers. The analyses are carefully organized by topic to facilitate easy access and cross-referencing. This structure enables researchers and students to efficiently explore diverse areas of research and gain valuable insights.
+
+### Topics Covered
+
+#### 1. Manipulation and Deception Studies
+
+* **Objective:** To understand the psychological and sociological aspects of manipulation and deception.
+* **Content:** Includes summaries and critiques of research papers focusing on cognitive techniques, behavioral impacts, and ethical considerations involved in manipulation and deception.
+* **Key Areas:** Persuasion strategies, misinformation spread, ethical boundaries.
+
+#### 2. AI Research
+
+* **Objective:** To explore the advancements and future directions of artificial intelligence.
+* **Content:** Offers structured analyses of studies related to machine learning, neural networks, AI ethics, and human-AI interaction.
+* **Key Areas:** AI algorithms, ethics of AI, AI in society, autonomous systems.
+
+#### 3. EEG Research
+
+* **Objective:** To delve into the use of EEG technology in cognitive and neurological studies.
+* **Content:** Features evaluations and discussions of research on brainwave monitoring, signal processing methods, and applications of EEG in various fields.
+* **Key Areas:** Brain-computer interfaces, neurological disorder studies, cognitive function analysis.
+
+### Usage
+
+* **Researchers:** Gain insight into current trends and methodologies.
+* **Students:** Utilize the detailed analyses for studies and assignments.
+* **Educators:** Reference materials for teaching purposes.
+
+## Academic Publications and Research Papers Directory
+
+Welcome to our extensive repository of academic publications and research papers, specifically focusing on EEG Studies. This collection stores original research papers and documents, meticulously organized by subject area to facilitate easy access and in-depth research. Included formats range widely, but PDFs are standard for their convenience and portability.
 
 ### PDFs Directory
 
-Stores original research papers and documents, organized by subject area:
+Within this directory, you will find comprehensive documents contributing to the field's knowledge base. Our emphasis is on ensuring that researchers, educators, and students can seamlessly navigate and utilize these resources in their work.
 
-- EEG Studies
-- Research Papers
-- Academic Publications
+### How to Contribute
+
+We actively encourage contributions to enhance the richness and breadth of our repository. Anyone interested in participating should adhere to the guidelines specified in the `CONTRIBUTING.md` file. This document outlines vital processes and procedures, ensuring consistent quality. Whether you're submitting new research analyses, suggesting corrections, or expanding upon existing datasets, your input is invaluable.
+
+#### Contribution Process:
+
+1. **Review Guidelines**: Before submitting any work, thoroughly review the guidelines in the `CONTRIBUTING.md` file to understand submission requirements and standards.
+2. **Prepare Your Submission**: Ensure your research or correction suggestion is well-documented, with clear references and adherence to academic integrity.
+3. **Submit for Review**: Follow the outlined submission process, including where and how to submit your work for consideration.
+4. **Collaborative Improvement**: Engage with peer-review feedback to refine and perfect your contribution, ultimately enhancing the resource quality for all users.
+
+By following these steps, you can contribute to our dynamic library, advancing collective knowledge and supporting the community dedicated
+
+### Reference Materials
+
+Reference materials provide essential information that underpins the core ideas and concepts within your research. These materials include textbooks, journals, and other scholarly articles that are indispensable for understanding the foundational elements of your topic.
+
+### Mathematical Resources
+
+Mathematical resources are tools, publications, and references that aid in the quantitative analysis and method development crucial to scientific research. They include statistical software, computational tools, mathematics journals, and online databases that provide algorithms and numeric data pertinent to your field.
+
+### Research Questions
+
+Research questions are integral to guiding the direction of your inquiry and ensuring that your investigation remains focused and effective. They help delineate the scope of research, providing clarity and precision to your study while directing data collection and analysis efforts.
+
+### Additional Materials Supporting Research and Analysis
+
+Additional materials encompass all supplementary documents and tools that enhance the depth and breadth of your research. These may involve extended datasets, case studies, interviews, and experiment results that provide a more comprehensive understanding of the investigation.
 
 ### External Resources
 
-Additional materials supporting research and analysis:
-
-- Research Questions
-- Mathematical Resources
-- Reference Materials
+External resources are important for broadening the perspective of your research beyond internal datasets and publications. These resources include external databases, collaborative platforms, public data repositories, and scholarly
 
 ## 🔧 Usage
 
 1. Navigate to the `pdfs/` directory for original research papers
 2. Find corresponding analyses in the `analysis/` directory
-3. Use the changelog update script for tracking changes:
+3.  Use the changelog update script for tracking changes:
 
-   ```bash
-   python scripts/update_changelog.py add "Added" "New analysis for Paper X"
-   ```
-
+    ```bash
+    python scripts/update_changelog.py add "Added" "New analysis for Paper X"
+    ```
 4. Follow the contribution guidelines when adding new content
 
 ## 📝 Contributing
@@ -79,18 +162,18 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## 📋 Guidelines
 
-- Maintain consistent file organization
-- Follow naming conventions
-- Update changelog when adding new content
-- Include proper citations and references
-- Keep documentation up to date
+* Maintain consistent file organization
+* Follow naming conventions
+* Update changelog when adding new content
+* Include proper citations and references
+* Keep documentation up to date
 
 ## 🔒 Security and Licensing
 
-- Repository is under MIT License
-- Respect copyright and fair use guidelines
-- Maintain proper attribution
-- Regular backups recommended
+* Repository is under MIT License
+* Respect copyright and fair use guidelines
+* Maintain proper attribution
+* Regular backups recommended
 
 ## 🛠 Scripts
 
@@ -106,18 +189,42 @@ python scripts/update_changelog.py add <type> "description"
 python scripts/update_changelog.py release <version>
 ```
 
-## 📞 Contact
+Date Last Updated: 2024-10-27
 
-For questions or contributions, please open an issue in the repository.
+***
 
-## 🙏 Acknowledgments
+### Academic Institutions
 
-- Research paper authors
-- Contributing analysts
-- Academic institutions
+List of participating academic institutions and their contributions to this project.
 
-## Last Updated
+***
 
-2024-10-27
+### Contributing Analysts
 
----
+Detailed sections about analysts who have contributed significant insights and analyses.
+
+***
+
+### Research Paper Authors
+
+Acknowledgment of authors who have provided research papers that support this project.
+
+***
+
+### 🙏 Acknowledgments
+
+Special thanks to individuals and organizations for their invaluable contributions and support.
+
+***
+
+### For Questions or Contributions
+
+For inquiries or if you wish to contribute, please consider opening an issue in the official repository.
+
+***
+
+### 📞 Contact
+
+For more detailed support or inquiries, we encourage you to get in touch through our official communication channels. Please feel free to reach out via email, contact forms on our website, or by calling our customer service hotline. Our dedicated team is here to assist you with any questions or issues you may have. Your satisfaction is important to us, and we look forward to providing you with the help you need
+
+***
