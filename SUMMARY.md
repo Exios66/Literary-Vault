@@ -1,12 +1,14 @@
 # Table of contents
 
 * [Literary Vault](README.md)
+  * [Page 1](readme/page-1.md)
+  * [Literary Vault Repository](https://github.com/Exios66/Literary-Vault)
 * [Changelog](CHANGELOG.md)
 * [Contributing to Literary Vault](CONTRIBUTING.md)
 * [Analysis & Literature Review](analysis/README.md)
   * [EEG](analysis/eeg/README.md)
     * [Cognitive Load Estimation in VR Flight Simulator](analysis/EEG/Cognitive-Load-Estimation-in-VR-Flight-Simulator.md)
-    * [Article Summary and Analysis](<analysis/EEG/Combining EEG with Pupillometry to Improve Cognitive Workload Detection.md>)
+    * [Combining EEG with Pupillometry to Improve Cognitive Workload Detection](<analysis/EEG/Combining EEG with Pupillometry to Improve Cognitive Workload Detection.md>)
     * [Analysis of The Oxford Handbook of Event-Related Potential Components](analysis/EEG/Oxford-Handbook.md)
 * [Docs README Placeholder](docs/README.md)
 * [pdfs](pdfs/README.md)
@@ -17,3 +19,7 @@
     * [\[Math Questions Placeholder\]](external-resources/questions/math.md)
     * [Math-PDFs](external-resources/questions/math-pdfs/README.md)
       * [placeholder](external-resources/questions/Math-PDFs/placeholder.md)
+  * [Multi-Modal-EEG-Analysis Repository](https://github.com/Exios66/multi-modal-analysis)
+  * [EEG Python Analysis Framework](https://github.com/Exios66/EEG-Python-Analysis)
+* [External Documentation & Infrastructure](external-documentation-and-infrastructure/README.md)
+  * [Hugging Face Chat UI](https://github.com/Exios66/chat-ui)

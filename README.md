@@ -1,6 +1,6 @@
 ---
-description: Landing Page to the Literary Cold Storage Vault.
 icon: book-atlas
+description: Landing Page to the Literary Cold Storage Vault.
 cover: >-
   https://images.unsplash.com/photo-1621264448270-9ef00e88a935?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxTdG9jayUyMENoYXJ0fGVufDB8fHx8MTczMDA4Nzc4N3ww&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -13,7 +13,7 @@ layout:
   description:
     visible: true
   tableOfContents:
-    visible: false
+    visible: true
   outline:
     visible: true
   pagination:
