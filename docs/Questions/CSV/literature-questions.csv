@@ -15,3 +15,19 @@ id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Categ
 534,Who wrote 'The Old Man and the Sea'?,Ernest Hemingway,John Steinbeck,F. Scott Fitzgerald,Jack London,1,Literature,Authors & Works
 535,What is NOT a work of Charles Dickens?,The Scarlet Letter,A Tale of Two Cities,Oliver Twist,David Copperfield,2,Literature,Authors & Works
 536,Who is NOT a poet?,Albert Einstein,Robert Frost,Emily Dickinson,T.S. Eliot,3,Literature,Authors & Works
+537,Who wrote 'Romeo and Juliet'?,William Shakespeare,Christopher Marlowe,Ben Jonson,Thomas Kyd,0,Literature,Authors & Literature
+538,Who authored 'Frankenstein'?,Mary Shelley,Bram Stoker,Robert Louis Stevenson,Oscar Wilde,1,Literature,Authors & Literature
+539,Who wrote 'The Brothers Karamazov'?,Fyodor Dostoevsky,Leo Tolstoy,Anton Chekhov,Ivan Turgenev,2,Literature,Authors & Literature
+540,Who authored 'Ulysses'?,James Joyce,Virginia Woolf,D.H. Lawrence,Marcel Proust,3,Literature,Authors & Literature
+541,Who is the main character in 'Harry Potter'?,Harry Potter,Ron Weasley,Hermione Granger,Draco Malfoy,0,Literature,Literary Characters
+542,Who is the protagonist of 'The Great Gatsby'?,Jay Gatsby,Nick Carraway,Tom Buchanan,Jordan Baker,1,Literature,Literary Characters
+543,Who is the main character in 'Don Quixote'?,Don Quixote,Sancho Panza,Dulcinea,Rocinante,2,Literature,Literary Characters
+544,Who is the protagonist in 'Finnegans Wake'?,HCE,ALP,Shem,Shaun,3,Literature,Literary Characters
+545,What genre is 'The Adventures of Sherlock Holmes'?,Mystery,Romance,Western,Comedy,0,Literature,Genres
+546,What genre is 'The Picture of Dorian Gray'?,Gothic,Adventure,Romance,Tragedy,1,Literature,Genres
+547,What genre is 'Paradise Lost'?,Epic Poetry,Novel,Short Story,Drama,2,Literature,Genres
+548,What genre is 'Waiting for Godot'?,Absurdist Drama,Comedy,Tragedy,Musical,3,Literature,Genres
+549,Which book was written by Mark Twain?,The Adventures of Tom Sawyer,Little Women,The Secret Garden,Anne of Green Gables,0,Literature,Authors & Works
+550,Who wrote 'Jane Eyre'?,Charlotte Bronte,Emily Bronte,Anne Bronte,George Eliot,1,Literature,Authors & Works
+551,What is NOT a work of Virginia Woolf?,Wuthering Heights,Mrs Dalloway,To the Lighthouse,Orlando,2,Literature,Authors & Works
+552,Who is NOT a dramatist?,Charles Darwin,Henrik Ibsen,August Strindberg,Tennessee Williams,3,Literature,Authors & Works

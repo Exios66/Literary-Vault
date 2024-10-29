@@ -1,0 +1,111 @@
+id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Category,Topic Focus
+601,What is psychology?,Study of mind and behavior,Study of the brain,Study of mental illness,Study of personality,0,Psychology,Foundations
+602,Who is considered the father of psychology?,Wilhelm Wundt,Sigmund Freud,William James,Ivan Pavlov,1,Psychology,Foundations
+603,What is behaviorism?,Focus on observable behavior,Study of thoughts,Analysis of dreams,Study of consciousness,1,Psychology,Foundations
+604,What is cognitive psychology?,Study of mental processes,Study of behavior,Study of emotions,Study of personality,2,Psychology,Foundations
+605,Who founded psychoanalysis?,Sigmund Freud,Carl Jung,B.F. Skinner,William James,0,Psychology,Psychoanalysis
+606,What is the unconscious mind?,Hidden mental content,Sleeping brain,Conscious thoughts,Daily awareness,1,Psychology,Psychoanalysis
+607,What are defense mechanisms?,Psychological protections,Physical responses,Learning strategies,Behavioral patterns,2,Psychology,Psychoanalysis
+608,What is transference?,Projecting feelings onto therapist,Memory transfer,Skill learning,Behavior change,3,Psychology,Psychoanalysis
+609,What is classical conditioning?,Learning through association,Direct learning,Complex thinking,Problem solving,0,Psychology,Learning
+610,What is operant conditioning?,Behavior consequences,Classical conditioning,Social learning,Cognitive learning,1,Psychology,Learning
+611,What is latent learning?,Learning without reward,Immediate learning,Forced learning,Rapid learning,2,Psychology,Learning
+612,What is learned helplessness?,Giving up from past failure,Active learning,Skill mastery,Knowledge acquisition,3,Psychology,Learning
+613,What is short-term memory?,Temporary storage,Long-term storage,Sensory memory,Working memory,0,Psychology,Memory
+614,What is encoding?,Converting information,Storing memory,Retrieving memory,Forgetting memory,1,Psychology,Memory
+615,What is retrograde amnesia?,Loss of past memories,Future memory loss,False memories,Memory creation,2,Psychology,Memory
+616,What is state-dependent memory?,Recall in same state,General recall,Perfect memory,Continuous recall,3,Psychology,Memory
+617,What is perception?,Interpreting sensory input,Seeing objects,Hearing sounds,Feeling textures,0,Psychology,Cognition
+618,What is attention?,Focused awareness,General awareness,Memory process,Learning style,1,Psychology,Cognition
+619,What is metacognition?,Thinking about thinking,Basic thought,Memory recall,Problem solving,2,Psychology,Cognition
+620,What is cognitive dissonance?,Conflicting beliefs,Clear thinking,Memory error,Learning difficulty,3,Psychology,Cognition
+621,What is emotion?,Feeling state,Thought process,Behavior pattern,Memory type,0,Psychology,Emotion
+622,What is empathy?,Understanding others' feelings,Self-awareness,Emotional control,Mood regulation,1,Psychology,Emotion
+623,What is emotional intelligence?,Managing emotions effectively,High IQ,Social skills,Leadership ability,2,Psychology,Emotion
+624,What is alexithymia?,Cannot identify emotions,Memory disorder,Learning disability,Attention deficit,3,Psychology,Emotion
+625,What is personality?,Individual characteristics,Behavior only,Thoughts only,Emotions only,0,Psychology,Personality
+626,What are the Big Five traits?,Personality dimensions,Learning styles,Memory types,Emotional states,1,Psychology,Personality
+627,What is temperament?,Innate disposition,Learned behavior,Acquired trait,Developed skill,2,Psychology,Personality
+628,What is narcissistic personality?,Excessive self-focus,Normal confidence,Healthy self-esteem,Regular pride,3,Psychology,Personality
+629,What is mental health?,Psychological wellbeing,Physical health,Social status,Career success,0,Psychology,Mental Health
+630,What is anxiety?,Fear response,Happiness,Sadness,Anger,1,Psychology,Mental Health
+631,What is major depression?,Persistent low mood,Temporary sadness,Normal grief,Regular mood,2,Psychology,Mental Health
+632,What is schizophrenia?,Thought disorder,Mood disorder,Anxiety disorder,Eating disorder,3,Psychology,Mental Health
+633,What is therapy?,Psychological treatment,Medical treatment,Physical therapy,Career counseling,0,Psychology,Treatment
+634,What is CBT?,Cognitive Behavioral Therapy,Drug therapy,Group therapy,Family therapy,1,Psychology,Treatment
+635,What is systematic desensitization?,Gradual fear exposure,Quick cure,Immediate treatment,Rapid therapy,2,Psychology,Treatment
+636,What is dialectical behavior therapy?,Skills-based therapy,Talk therapy,Drug therapy,Play therapy,3,Psychology,Treatment
+637,What is development?,Growth and change,Aging only,Physical growth,Mental growth,0,Psychology,Development
+638,What is attachment theory?,Bonding pattern,Learning theory,Memory theory,Personality theory,1,Psychology,Development
+639,What are critical periods?,Key development times,Regular times,Optional periods,Flexible periods,2,Psychology,Development
+640,What is neuroplasticity?,Brain change ability,Brain size,Brain structure,Brain chemistry,3,Psychology,Development
+641,What is motivation?,Drive to act,Physical need,Mental state,Emotional response,0,Psychology,Motivation
+642,What is Maslow's hierarchy?,Needs pyramid,Behavior theory,Learning model,Memory system,1,Psychology,Motivation
+643,What is intrinsic motivation?,Internal drive,External reward,Social pressure,Public recognition,2,Psychology,Motivation
+644,What is self-determination theory?,Motivation framework,Learning theory,Memory model,Behavior system,3,Psychology,Motivation
+645,What is social psychology?,Group behavior study,Individual study,Personal analysis,Self-study,0,Psychology,Social
+646,What is conformity?,Group influence,Individual choice,Personal decision,Unique behavior,1,Psychology,Social
+647,What is groupthink?,Group pressure effect,Individual thinking,Personal choice,Independent thought,2,Psychology,Social
+648,What is deindividuation?,Loss of self-awareness,Self-consciousness,Personal identity,Individual focus,3,Psychology,Social
+649,What is intelligence?,Mental ability,Physical skill,Emotional capacity,Social skill,0,Psychology,Intelligence
+650,What is IQ?,Intelligence quotient,Education level,Learning ability,Memory capacity,1,Psychology,Intelligence
+651,What is fluid intelligence?,Abstract reasoning,Learned knowledge,Memory skill,Social ability,2,Psychology,Intelligence
+652,What is the Flynn effect?,Rising IQ scores,Declining IQ,Static IQ,Variable IQ,3,Psychology,Intelligence
+653,What is consciousness?,Awareness state,Sleep state,Dream state,Unconscious state,0,Psychology,Consciousness
+654,What is REM sleep?,Rapid eye movement,Deep sleep,Light sleep,No dreams,1,Psychology,Consciousness
+655,What is lucid dreaming?,Aware while dreaming,Regular dream,Nightmare,Sleep walking,2,Psychology,Consciousness
+656,What is blindsight?,Unconscious vision,Normal sight,Color blindness,Night vision,3,Psychology,Consciousness
+657,What is stress?,Body's response,Muscle tension,Blood pressure,Heart rate,0,Psychology,Stress
+658,What is the fight-or-flight response?,Stress reaction,Relaxation,Normal state,Calm response,1,Psychology,Stress
+659,What is chronic stress?,Long-term stress,Short stress,Quick stress,Temporary stress,2,Psychology,Stress
+660,What is allostatic load?,Cumulative stress effect,Single stress,Brief stress,Acute stress,3,Psychology,Stress
+661,What is research method?,Study approach,Data only,Results only,Analysis only,0,Psychology,Research
+662,What is correlation?,Relationship between variables,Causation,Direct effect,Simple link,1,Psychology,Research
+663,What is experimental design?,Controlled study method,Simple observation,Basic survey,Quick test,2,Psychology,Research
+664,What is statistical significance?,Meaningful difference,Random chance,No difference,Small change,3,Psychology,Research
+665,What is positive psychology?,Study of wellbeing,Problem focus,Disorder study,Illness research,0,Psychology,Contemporary
+666,What is mindfulness?,Present awareness,Future thinking,Past focus,Time planning,1,Psychology,Contemporary
+667,What is neuropsychology?,Brain-behavior study,Therapy only,Counseling focus,Treatment plan,2,Psychology,Contemporary
+668,What is epigenetics?,Gene expression changes,Genetic code,DNA sequence,Chromosome structure,3,Psychology,Contemporary
+669,What is cultural psychology?,Culture influence study,Individual focus,Personal study,Self analysis,2,Psychology,Cultural
+670,What is ethnocentrism?,Cultural superiority belief,Cultural respect,Cultural awareness,Cultural sensitivity,3,Psychology,Cultural
+671,What is confabulation?,False memories without intent,Intentional lying,Memory enhancement,Story creation,2,Psychology,Clinical Terms
+672,What is abulia?,Lack of willpower,Excess motivation,Strong drive,High energy,2,Psychology,Clinical Terms
+673,What is anhedonia?,Inability to feel pleasure,Extreme happiness,Mood swings,Emotional high,2,Psychology,Clinical Terms
+674,What is perseveration?,Repetitive behavior/speech,Normal routine,Varied actions,Flexible response,2,Psychology,Clinical Terms
+675,What is anosognosia?,Denial of illness,Awareness of illness,Understanding disease,Accepting condition,3,Psychology,Clinical Terms
+676,What is echolalia?,Repeating others' words,Original speech,Normal conversation,Unique expression,2,Psychology,Clinical Terms
+677,What is prosopagnosia?,Face blindness,Color blindness,Sound deafness,Touch numbness,3,Psychology,Clinical Terms
+678,What is aphasia?,Language impairment,Memory loss,Attention deficit,Learning difficulty,2,Psychology,Clinical Terms
+679,What is catastrophizing?,Assuming worst outcome,Positive thinking,Neutral assessment,Balanced view,1,Psychology,Cognitive Terms
+680,What is rumination?,Repetitive negative thoughts,Positive reflection,Casual thinking,Random ideas,1,Psychology,Cognitive Terms
+681,What is pareidolia?,Seeing patterns in random stimuli,Clear vision,Accurate perception,Precise observation,2,Psychology,Cognitive Terms
+682,What is confounding?,Mixing of variables,Clear separation,Distinct factors,Pure elements,2,Psychology,Research Terms
+683,What is habituation?,Decreased response to stimulus,Increased response,New reaction,Fresh response,1,Psychology,Learning Terms
+684,What is metacognition?,Thinking about thinking,Basic thought,Simple idea,Direct concept,2,Psychology,Cognitive Terms
+685,What is neurotransmitter?,Chemical messenger,Brain cell,Nerve fiber,Neural path,1,Psychology,Biological Terms
+686,What is synesthesia?,Merged sensory experiences,Single sense,Separate senses,Distinct perception,3,Psychology,Perception Terms
+687,What is nosology?,Classification of disorders,Treatment plan,Cure system,Health program,3,Psychology,Clinical Terms
+688,What is phenomenology?,Study of experience,Behavior analysis,Brain research,Mental testing,3,Psychology,Research Terms
+689,What is homeostasis?,System balance,Constant change,Regular shift,Frequent alteration,1,Psychology,Biological Terms
+690,What is object permanence?,Understanding objects exist when hidden,Seeing objects,Moving things,Touching items,1,Psychology,Developmental Terms
+691,What is schema?,Mental framework,Physical structure,External system,Visible pattern,1,Psychology,Cognitive Terms
+692,What is proprioception?,Body position sense,Visual sense,Hearing ability,Taste perception,2,Psychology,Biological Terms
+693,What is apperception?,Understanding new ideas with past experience,New learning,Fresh knowledge,Recent memory,2,Psychology,Cognitive Terms
+694,What is dendrite?,Neuron branch,Brain cell,Nerve ending,Neural connection,1,Psychology,Biological Terms
+695,What is oligophrenia?,Intellectual disability,Physical disability,Sensory loss,Motor problem,3,Psychology,Clinical Terms
+696,What is dystymia?,Persistent mild depression,Temporary sadness,Brief unhappiness,Moment of grief,2,Psychology,Clinical Terms
+697,What is perseveration?,Repetitive behavior,Single action,Varied response,Different reaction,2,Psychology,Clinical Terms
+698,What is somatization?,Physical expression of psychological stress,Mental stress,Emotional pain,Psychological tension,2,Psychology,Clinical Terms
+699,What is amnesia?,Memory loss,Memory gain,Memory change,Memory shift,1,Psychology,Clinical Terms
+700,What is aphasia?,Language disorder,Memory problem,Attention issue,Learning difficulty,2,Psychology,Clinical Terms
+701,What is agnosia?,Recognition impairment,Clear recognition,Easy identification,Simple detection,3,Psychology,Clinical Terms
+702,What is apraxia?,Movement disorder,Speech problem,Memory issue,Attention deficit,3,Psychology,Clinical Terms
+703,What is dysthymia?,Chronic mild depression,Severe depression,Brief sadness,Temporary mood,2,Psychology,Clinical Terms
+704,What is alexithymia?,Difficulty expressing emotions,Easy expression,Clear feelings,Simple emotions,2,Psychology,Clinical Terms
+705,What is avolition?,Lack of motivation,High drive,Strong will,Clear purpose,2,Psychology,Clinical Terms
+706,What is catatonia?,Motor behavior abnormality,Normal movement,Regular action,Typical behavior,3,Psychology,Clinical Terms
+707,What is delirium?,Confused consciousness,Clear thinking,Sharp mind,Alert state,2,Psychology,Clinical Terms
+708,What is dyskinesia?,Abnormal movement,Normal motion,Regular action,Typical movement,3,Psychology,Clinical Terms
+709,What is eidetic memory?,Photographic memory,Normal recall,Regular memory,Typical retention,2,Psychology,Cognitive Terms
+710,What is extinction?,Response disappearance,Response increase,Behavior growth,Action enhancement,1,Psychology,Learning Terms
