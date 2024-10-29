@@ -16,7 +16,7 @@ The book is intended as an accessible introduction to Carl Jung's psychological 
 
 ---
 
-# Comprehensive and Detailed Breakdown by Section
+## Comprehensive and Detailed Breakdown by Section
 
 ### Introduction
 
