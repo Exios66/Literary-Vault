@@ -15,3 +15,6 @@ id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Categ
 534,What is the end stage of a massive star?,Black Hole,White Dwarf,Red Giant,Neutron Star,1,Astronomy,Stellar Events
 535,What is the bright flash at the end of a star's life?,Supernova,Hypernova,Gamma Burst,Solar Flare,2,Astronomy,Stellar Events
 536,What is the name of a rapidly rotating neutron star?,Pulsar,Quasar,Magnetar,Nova,3,Astronomy,Stellar Events
+531,What is the largest planet in our solar system?,Jupiter,Saturn,Earth,Mars,1,Astronomy,Planets
+532,What is the main component of the Sun?,Hydrogen,Helium,Oxygen,Carbon,2,Astronomy,Stars
+533,What is the name of the galaxy that contains the Milky Way?,Local Group,Andromeda,Triangulum,Sombrero,3,Astronomy,Galaxies

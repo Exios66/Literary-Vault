@@ -7,3 +7,6 @@ id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Categ
 526,Solve for y: 3y - 9 = 6,5,3,4,6,1,Mathematics,Algebra
 527,What is the quadratic formula?,(-b ± √(b²-4ac)) / 2a,(b ± √(b²-4ac)) / 2a,(b² ± 2ac) / 2a,(b ± √(4ac)) / 2a,2,Mathematics,Algebra
 528,Expand: (a + b)²,a² + 2ab + b²,a² - 2ab + b²,a² + ab + b²,2a + b²,3,Mathematics,Algebra
+529,What is 9 - 4?,5,6,3,7,1,Mathematics,Arithmetic
+530,What is 3²?,9,6,12,15,2,Mathematics,Arithmetic
+531,What is the value of π (pi) to two decimal places?,3.14,3.12,3.16,3.10,3,Mathematics,Geometry
