@@ -22,4 +22,4 @@
 
 * [links](links/README.md)
   * [xtra-docs](links/xtra-docs/README.md)
-    * [Serverless Inference API](links/xtra-docs/serverless-api-hf.md)
+    * [Serverless Inference API](links/xtra-docs/serverless-inference-api.md)
