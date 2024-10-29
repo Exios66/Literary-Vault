@@ -35,12 +35,11 @@ The article examines why individuals believe and share false or misleading news,
 - **Practical Implications**: Integrating simple prompts to encourage accuracy evaluations can significantly reduce misinformation sharing. Crowdsourced ratings could serve as a scalable solution to help platforms improve the reliability of news content.
 - **Potential Impact**: These recommendations could curb misinformation, enhancing public trust and mitigating polarization influenced by false content.
 
-# Contextual Insight
+# Contextual Insights
+
+## Abstract in a nutshell
 
 - **Abstract in a nutshell**: This study shows that a lack of reflective reasoning, familiarity with content, and reliance on source credibility often explain why people believe and share misinformation, challenging the view that political motivation is the main factor.
-- **Abstract Keywords**: [Fake news](https://scholar.google.com/scholar?q=Fake+news), [misinformation](https://scholar.google.com/scholar?q=misinformation), [heuristics](https://scholar.google.com/scholar?q=heuristics), [social media](https://scholar.google.com/scholar?q=social+media), [truth discernment](https://scholar.google.com/scholar?q=truth+discernment), [cognitive psychology](https://scholar.google.com/scholar?q=cognitive+psychology), [political bias](https://scholar.google.com/scholar?q=political+bias), [digital literacy](https://scholar.google.com/scholar?q=digital+literacy)
-- **Gap/Need**: While political motivation has been often cited as the cause of fake news susceptibility, this research shows that cognitive factors, rather than partisanship, primarily influence people's inability to discern falsehood.
-- **Innovation**: By proposing reflective reasoning and heuristic-based interventions, the authors introduce evidence-based strategies that social media platforms can use to improve content veracity.
 
 ## Key Quotes
 
