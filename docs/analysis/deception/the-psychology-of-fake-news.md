@@ -1,6 +1,6 @@
 # The Psychology of Fake News
 
-## The Psychology of Fake News
+#### Overview of Fake News
 
 ### Citation Information
 
