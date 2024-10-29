@@ -27,7 +27,7 @@ The study develops an EEG-based index for estimating mental workload and effort 
 
 ---
 
-# Study Overview and Key Components
+### Study Overview and Key Findings
 
 ## Introduction
 
