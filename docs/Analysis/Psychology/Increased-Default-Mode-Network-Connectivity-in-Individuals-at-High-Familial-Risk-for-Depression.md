@@ -12,4 +12,6 @@
 
 - We used rs-fcMRI to examine DMN and DMN-CEN functional connectivity in individuals from a longitudinal cohort study of families at high and low risk for depression. Based on prior literature (Sheline et al, 2009; Posner et al, 2013), we hypothesized that compared with individuals at low familial risk, those at high risk for depression would demonstrate increased connectivity within the DMN, as well as decreased negative connectivity (ie, reduced anticorrelations) between the DMN and CEN. Using diffusion MRI, we then explored whether measures of DMN and DMN-CEN functional connectivity could be corroborated with diffusion tractography. Last, we used path analyses to explore associations between familiar risk for depression, connectivity measures, and affective symptoms and impulsivity.
 
+- Posner, J., Cha, J., Wang, Z., Talati, A., Warner, V., Gerber, A., Peterson, B. S., & Weissman, M. (2016). Increased Default Mode Network Connectivity in Individuals at High Familial Risk for Depression. Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology, 41(7), 1759–1767. [https://doi.org/10.1038/npp.2015.342] 
+
 
