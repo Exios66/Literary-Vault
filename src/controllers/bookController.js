@@ -18,9 +18,13 @@ exports.searchBooks = async (req, res) => {
     let query = {};
     
     if (searchTerm) {
+      const sanitizedTerm = searchTerm
+        .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+        .slice(0, 100);
+      
       query.$or = [
-        { title: new RegExp(searchTerm, 'i') },
-        { author: new RegExp(searchTerm, 'i') }
+        { title: new RegExp(sanitizedTerm, 'i') },
+        { author: new RegExp(sanitizedTerm, 'i') }
       ];
     }
     
