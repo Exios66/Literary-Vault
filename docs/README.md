@@ -70,8 +70,7 @@ literary-vault/
 ├── CONTRIBUTING.md      # Contribution guidelines
 ├── LICENSE             # MIT License
 └── README.md           # Repository documentation
-``Here’s a comprehensive README for the “Literary Vault” repository, integrating current structure and expanding with additional details:
-
+```
 # Literary Vault
 
 An active catalog and toolkit supporting neuroscience research with organized documentation, backend services, and infrastructure for comprehensive analysis and API services.
@@ -141,15 +140,16 @@ Scripts provided for streamlined repository management, including:
    git clone https://github.com/Exios66/Literary-Vault.git
    cd Literary-Vault
 
-	2.	Install dependencies:
+2.Install dependencies:
 
+```python
 pip install -r requirements.txt
+```
 
 
+## Usage
 
-Usage
-
-Start API Servers
+- Start API Servers
 
 Run API servers for different modules:
 
@@ -161,17 +161,17 @@ python docs/api/changelog_api.py
 
 Changelog Management
 
-Use the provided scripts to add entries or create releases:
+	Use the provided scripts to add entries or create releases:
 
 # Add an entry to the changelog
-python scripts/update_changelog.py add "Added" "Description of new feature"
+	python scripts/update_changelog.py add "Added" "Description of new feature"
 
 # Create a release entry
-python scripts/update_changelog.py release "1.0.0"
+	python scripts/update_changelog.py release "1.0.0"
 
-Access Question Datasets
+## Access Question Datasets
 
-The repository includes various question sets in CSV format, accessible either via the API or directly:
+### The repository includes various question sets in CSV format, accessible either via the API or directly:
 
 	•	Refined_Astronomy_Questions.csv
 	•	Refined_Literature_Questions.csv
@@ -352,4 +352,4 @@ Released under [MIT License](LICENSE).
 
 ***
 
-### Last Updated: 2024-10-28
+### Last Updated: 2024-10-30
