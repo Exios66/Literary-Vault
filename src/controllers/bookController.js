@@ -1,18 +1,18 @@
-const Book = require('../models/Book');
+import { findById, find, create } from '../models/Book';
 
-exports.getBookById = async (req, res) => {
+export async function getBookById(req, res) {
   try {
-    const book = await Book.findById(req.params.bookId);
+    const book = await findById(req.params.bookId);
     if (!book) {
-      return res.status(404).json({ error: "Book not found" });
+      return res.status(404).json({ message: 'Book not found' });
     }
     res.json(book);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    res.status(500).json({ message: 'Server error' });
   }
-};
+}
 
-exports.searchBooks = async (req, res) => {
+export async function searchBooks(req, res) {
   try {
     const { searchTerm, category, limit = 10 } = req.query;
     let query = {};
@@ -32,19 +32,38 @@ exports.searchBooks = async (req, res) => {
       query.category = category;
     }
     
-    const books = await Book.find(query).limit(parseInt(limit));
+    const books = await find(query).limit(Number(limit));
     res.json(books);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-};
+}
 
-exports.getFeaturedBooks = async (req, res) => {
+export async function getFeaturedBooks(req, res) {
   try {
     const { limit = 5 } = req.query;
-    const books = await Book.find({ isFeatured: true }).limit(parseInt(limit));
+    const books = await find({ isFeatured: true }).limit(parseInt(limit));
     res.json(books);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
-}; 
+}
+
+export async function createBook(req, res) {
+  try {
+    const { title, author, category, description, publishedDate, isFeatured } = req.body;
+    
+    const book = await create({
+      title,
+      author,
+      category,
+      description,
+      publishedDate: publishedDate ? new Date(publishedDate) : undefined,
+      isFeatured
+    });
+    
+    res.status(201).json(book);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+} 

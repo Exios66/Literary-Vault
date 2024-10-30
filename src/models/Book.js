@@ -25,4 +25,10 @@ const bookSchema = new Schema({
   }
 });
 
-export default model('Book', bookSchema); 
+const Book = model('Book', bookSchema);
+
+export const find = Book.find.bind(Book);
+export const findById = Book.findById.bind(Book);
+export const create = Book.create.bind(Book);
+
+export default Book; 

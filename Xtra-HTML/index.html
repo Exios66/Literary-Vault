@@ -470,5 +470,20 @@ curl "http://localhost:8000/api/v1/categories/astronomy/stats"</pre>
     </footer>
 
     <div class="toast" role="alert" aria-live="polite"></div>
+
+    <script type="module">
+      import { questionAPI, openAiFunctions } from '../src/api/questions.js';
+
+      // Expose API functions globally for OpenAI
+      window.literaryVaultAPI = {
+        get_categories: () => questionAPI.getCategories(),
+        get_random_question: () => questionAPI.getRandomQuestion(),
+        get_category_questions: (params) => questionAPI.getCategoryQuestions(params.category),
+        get_category_stats: (params) => questionAPI.getCategoryStats(params.category)
+      };
+
+      // Expose OpenAI function definitions
+      window.literaryVaultFunctions = openAiFunctions;
+    </script>
 </body>
 </html>
