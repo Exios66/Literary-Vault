@@ -38,6 +38,16 @@ Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
 [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
+[![Made with Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)](https://flask.palletsprojects.com/)
+[![HTML5](https://img.shields.io/badge/HTML-5-orange?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Markdown](https://img.shields.io/badge/Markdown-Documentation-lightgrey?logo=markdown)](https://www.markdownguide.org/)
+[![GitBook](https://img.shields.io/badge/Docs-GitBook-green?logo=gitbook)](https://www.gitbook.com/)
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Netlify](https://img.shields.io/badge/Deployed%20On-Netlify-blue?logo=netlify&logoColor=white)](https://www.netlify.com/)
+
 ## 🗂️ Repository Structure
 
 ```bash
