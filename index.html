@@ -319,6 +319,16 @@
         .toast.show {
             opacity: 1;
         }
+
+        .toast.error {
+            background: #dc2626;
+            color: white;
+        }
+
+        .loading {
+            opacity: 0.5;
+            pointer-events: none;
+        }
     </style>
 </head>
 <body>
@@ -723,6 +733,99 @@ enum Category {
         // Expose necessary functions to global scope
         window.copyToClipboard = copyToClipboard;
         window.toggleTheme = () => themeManager.toggle();
+    </script>
+    <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+    <script type="module">
+        import { questionAPI, openAiFunctions } from './src/api/questions.js';
+
+        // Initialize the API
+        async function initAPI() {
+            await questionAPI.loadQuestions();
+            
+            // Update the example responses with real data
+            const categories = await questionAPI.getCategories();
+            document.getElementById('categories-response').textContent = 
+                JSON.stringify({ categories }, null, 2);
+
+            const randomQuestion = await questionAPI.getRandomQuestion();
+            document.getElementById('random-response').textContent = 
+                JSON.stringify(randomQuestion, null, 2);
+
+            const astronomyQuestions = await questionAPI.getCategoryQuestions('astronomy');
+            document.getElementById('category-response').textContent = 
+                JSON.stringify({ questions: astronomyQuestions.slice(0, 2) }, null, 2);
+
+            const astronomyStats = await questionAPI.getCategoryStats('astronomy');
+            document.getElementById('stats-response').textContent = 
+                JSON.stringify(astronomyStats, null, 2);
+        }
+
+        // Expose API functions globally for OpenAI
+        window.literaryVaultAPI = {
+            get_categories: () => questionAPI.getCategories(),
+            get_random_question: () => questionAPI.getRandomQuestion(),
+            get_category_questions: (params) => questionAPI.getCategoryQuestions(params.category),
+            get_category_stats: (params) => questionAPI.getCategoryStats(params.category)
+        };
+
+        // Expose OpenAI function definitions
+        window.literaryVaultFunctions = openAiFunctions;
+
+        // Initialize when the page loads
+        initAPI().catch(console.error);
+    </script>
+    <script type="module">
+      import { questionAPI, openAiFunctions } from './src/api/questions.js';
+
+      // Initialize and test API
+      async function init() {
+        try {
+          await questionAPI.loadQuestions();
+          
+          // Run tests in development
+          if (window.location.hostname === 'localhost') {
+            const { testAPI } = await import('./src/tests/api-test.js');
+            await testAPI();
+          }
+          
+          // Update example responses
+          updateExampleResponses();
+          
+        } catch (error) {
+          console.error('Initialization failed:', error);
+          showError('Failed to load questions. Please try again later.');
+        }
+      }
+
+      function showError(message) {
+        const toast = document.querySelector('.toast');
+        toast.textContent = message;
+        toast.classList.add('show', 'error');
+        setTimeout(() => toast.classList.remove('show', 'error'), 5000);
+      }
+
+      async function updateExampleResponses() {
+        const categories = await questionAPI.getCategories();
+        document.getElementById('categories-response').textContent = 
+          JSON.stringify({ categories }, null, 2);
+
+        const randomQuestion = await questionAPI.getRandomQuestion();
+        document.getElementById('random-response').textContent = 
+          JSON.stringify(randomQuestion, null, 2);
+
+        if (categories.includes('astronomy')) {
+          const astronomyQuestions = await questionAPI.getCategoryQuestions('astronomy');
+          document.getElementById('category-response').textContent = 
+            JSON.stringify({ questions: astronomyQuestions.slice(0, 2) }, null, 2);
+
+          const astronomyStats = await questionAPI.getCategoryStats('astronomy');
+          document.getElementById('stats-response').textContent = 
+            JSON.stringify(astronomyStats, null, 2);
+        }
+      }
+
+      // Initialize when the page loads
+      init().catch(console.error);
     </script>
 </body>
 </html>
