@@ -11,25 +11,25 @@ icon: git
 [Home](broken-reference)[Site policy](broken-reference)
 
 * GitHub Terms
-  * [GitHub Terms of Service](<../../.gitbook/assets/github terms of service>)
-  * [GitHub Corporate Terms of Service](<../../.gitbook/assets/github corporate terms of service>)
-  * [GitHub Terms for Additional Products and Features](<../../.gitbook/assets/github terms for additional products and features>)
-  * [GitHub Community Guidelines](<../../.gitbook/assets/github community guidelines>)
-  * [GitHub Community Code of Conduct](<../../.gitbook/assets/github community code of conduct>)
-  * [GitHub Pre-release License Terms](<../../.gitbook/assets/github pre release license terms>)
-  * [GitHub Sponsors Additional Terms](<../../.gitbook/assets/github sponsors additional terms>)
-  * [GitHub Registered Developer Agreement](<../../.gitbook/assets/github registered developer agreement>)
-  * [GitHub Marketplace Terms of Service](<../../.gitbook/assets/github marketplace terms of service>)
-  * [GitHub Marketplace Developer Agreement](<../../.gitbook/assets/github marketplace developer agreement>)
-  * [GitHub Research Program Terms](<../../.gitbook/assets/github research program terms>)
-  * [GitHub Open Source Applications Terms and Conditions](<../../.gitbook/assets/github open source applications terms and conditions>)
-  * [GitHub Event Terms](<../../.gitbook/assets/github event terms>)
-  * [GitHub Event Code of Conduct](<../../.gitbook/assets/github event code of conduct>)
-  * [GitHub Educational Use Agreement](<../../.gitbook/assets/github educational use agreement>)
-  * [GitHub Copilot Extension Developer Policy](<../../.gitbook/assets/github copilot extension developer policy>)
+  * [GitHub Terms of Service](<../../../.gitbook/assets/github terms of service>)
+  * [GitHub Corporate Terms of Service](<../../../.gitbook/assets/github corporate terms of service>)
+  * [GitHub Terms for Additional Products and Features](<../../../.gitbook/assets/github terms for additional products and features>)
+  * [GitHub Community Guidelines](<../../../.gitbook/assets/github community guidelines>)
+  * [GitHub Community Code of Conduct](<../../../.gitbook/assets/github community code of conduct>)
+  * [GitHub Pre-release License Terms](<../../../.gitbook/assets/github pre release license terms>)
+  * [GitHub Sponsors Additional Terms](<../../../.gitbook/assets/github sponsors additional terms>)
+  * [GitHub Registered Developer Agreement](<../../../.gitbook/assets/github registered developer agreement>)
+  * [GitHub Marketplace Terms of Service](<../../../.gitbook/assets/github marketplace terms of service>)
+  * [GitHub Marketplace Developer Agreement](<../../../.gitbook/assets/github marketplace developer agreement>)
+  * [GitHub Research Program Terms](<../../../.gitbook/assets/github research program terms>)
+  * [GitHub Open Source Applications Terms and Conditions](<../../../.gitbook/assets/github open source applications terms and conditions>)
+  * [GitHub Event Terms](<../../../.gitbook/assets/github event terms>)
+  * [GitHub Event Code of Conduct](<../../../.gitbook/assets/github event code of conduct>)
+  * [GitHub Educational Use Agreement](<../../../.gitbook/assets/github educational use agreement>)
+  * [GitHub Copilot Extension Developer Policy](<../../../.gitbook/assets/github copilot extension developer policy>)
 * Acceptable Use Policies
-  * [GitHub Acceptable Use Policies](<../../.gitbook/assets/github acceptable use policies>)
-  * [Active Malware or Exploits](<../../.gitbook/assets/github active malware or exploits>)
+  * [GitHub Acceptable Use Policies](<../../../.gitbook/assets/github acceptable use policies>)
+  * [Active Malware or Exploits](<../../../.gitbook/assets/github active malware or exploits>)
   * Bullying and Harassment
   * Disrupting the Experience of Other Users
   * Doxxing and Invasion of Privacy
@@ -104,7 +104,7 @@ Learn how to contribute
 ### Legal
 
 * © 2024 GitHub, Inc.
-* [Terms](<../../.gitbook/assets/github terms of service>)
+* [Terms](<../../../.gitbook/assets/github terms of service>)
 * Privacy
 * [Status](https://www.githubstatus.com/)
 * [Pricing](https://github.com/pricing)
