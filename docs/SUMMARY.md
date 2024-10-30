@@ -1,14 +1,13 @@
 # Table of contents
 
 * [The Literary Vault Docs](README.md)
-  * [2021 PDF Storage Hub](readme/2021-pdf-storage-hub.md)
+  * [PDF Storage Hub](readme/2021-pdf-storage-hub.md)
   * [Documentation Main Hub](readme/documentation-main-hub.md)
   * [OUTBOUND LINKS](readme/outbound-links.md)
   * [Welcome to the Literary-Vault wiki!](readme/welcome-to-the-literary-vault-wiki.md)
   * [Socials + Contact Forms](readme/socials-+-contact-forms.md)
   * [Useful Utilities](readme/useful-utilities.md)
-* [API ENDPOINTS -- QUESTION RECALL](https://exios66.github.io/Literary-Vault/)
-* [Analysis](analysis/README.md)
+* [ANALYSIS](analysis/README.md)
   * [Ai-Research](analysis/ai-research/README.md)
     * [People Cannot Distinguish GPT-4 from a Human in a Turing Test](analysis/ai-research/people-cannot-distinguish-gpt-4-from-a-human-in-a-turing-test.md)
     * [ELIZA Program](analysis/ai-research/eliza-program.md)
@@ -26,11 +25,12 @@
 
 ## API Functions
 
+* [API ENDPOINTS -- QUESTION RECALL](https://exios66.github.io/Literary-Vault/)
 * [Open Ai Functions - Get Questions v1](api-functions/open-ai-functions-get-questions.md)
 
 ***
 
-* [links](links/README.md)
+* [HOTLINKS](links/README.md)
   * [xtra-docs](links/xtra-docs/README.md)
     * [Serverless Inference API](links/xtra-docs/serverless-inference-api.md)
     * [Questions API Documentation](links/xtra-docs/questions-api-documentation.md)

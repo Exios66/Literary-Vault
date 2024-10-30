@@ -1,3 +1,7 @@
+---
+icon: square-a-lock
+---
+
 # Questions API Documentation
 
 #### Get Questions

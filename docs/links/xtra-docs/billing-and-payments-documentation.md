@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Billing and payments documentation
 
 *

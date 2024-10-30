@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Securing your software supply chain
 
 *

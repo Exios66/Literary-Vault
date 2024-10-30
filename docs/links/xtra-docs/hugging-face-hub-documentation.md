@@ -1,3 +1,7 @@
+---
+icon: face-smiling-hands
+---
+
 # Hugging Face Hub documentation
 
 ### Hugging Face Hub documentation

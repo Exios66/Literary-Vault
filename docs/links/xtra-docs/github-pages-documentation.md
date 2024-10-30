@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # GitHub Pages documentation
 
 [Skip to main content](broken-reference)

@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # GitHub Packages documentation
 
 [Skip to main content](broken-reference)

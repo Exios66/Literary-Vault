@@ -1,5 +1,8 @@
 ---
-icon: book
+icon: markdown
+cover: >-
+  https://images.unsplash.com/photo-1726585310789-850506053d46?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw5fHxkb2N8ZW58MHx8fHwxNzMwMzI1NzUxfDA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # xtra-docs

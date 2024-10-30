@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Repositories documentation
 
 *

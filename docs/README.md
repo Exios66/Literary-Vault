@@ -1,5 +1,6 @@
 ---
 icon: square-terminal
+description: Main Landing Page to the GitBook Docs Vault Hub.
 cover: >-
   https://images.unsplash.com/photo-1505664194779-8beaceb93744?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw2fHxsaWJyYXJ5fGVufDB8fHx8MTczMDAyMTMyNXww&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -19,27 +20,23 @@ layout:
     visible: true
 ---
 
-## Literary Vault Documentation Guide
+# The Literary Vault Docs
 
-[![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66&message=Literary-Vault&color=blueviolet&logo=github)](https://github.com/Exios66/Literary-Vault "Go to GitHub repo")
-[![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
-[![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-docs)
+### Literary Vault Documentation Guide
+
+[![Exios66 - Literary-Vault](https://img.shields.io/static/v1?label=Exios66\&message=Literary-Vault\&color=blueviolet\&logo=github)](https://github.com/Exios66/Literary-Vault) [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault) [![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook\_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-docs)
 
 ***
 
-## License
+### License
 
-Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
+Released under [MIT](../LICENSE/) by [@Exios66](https://github.com/Exios66).
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/)
-[![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
-[![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues)
-[![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
-[![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE/) [![Commits](https://img.shields.io/github/commit-activity/m/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main) [![Issues](https://img.shields.io/github/issues/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/issues) [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors) [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
-## 🗂️ Repository Structure
+### 🗂️ Repository Structure
 
-```bash
+````
 literary-vault/
 ├── analysis/              # Detailed analysis of research papers
 │   ├── AI-Research/      # AI-related research analysis
@@ -59,9 +56,10 @@ literary-vault/
 ├── CONTRIBUTING.md      # Contribution guidelines
 ├── LICENSE             # MIT License
 └── README.md           # Repository documentation
-``Here’s a comprehensive README for the “Literary Vault” repository, integrating current structure and expanding with additional details:
+```
+````
 
-# Literary Vault
+<pre class="language-markdown" data-overflow="wrap" data-full-width="true"><code class="lang-markdown">#<a data-footnote-ref href="#user-content-fn-1"> </a>Literary Vault
 
 An active catalog and toolkit supporting neuroscience research with organized documentation, backend services, and infrastructure for comprehensive analysis and API services.
 
@@ -126,18 +124,20 @@ Scripts provided for streamlined repository management, including:
 ## Installation
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Exios66/Literary-Vault.git
    cd Literary-Vault
 
-	2.	Install dependencies:
+2. Install dependencies:
 
+```python
 pip install -r requirements.txt
+```
 
 
-
-Usage
-
+<strong># Usage
+</strong>
 Start API Servers
 
 Run API servers for different modules:
@@ -162,36 +162,36 @@ Access Question Datasets
 
 The repository includes various question sets in CSV format, accessible either via the API or directly:
 
-	•	Refined_Astronomy_Questions.csv
-	•	Refined_Literature_Questions.csv
-	•	Refined_Mathematics_Questions.csv
-	•	Refined_General_Knowledge_Questions.csv
+	•Refined_Astronomy_Questions.csv
+	•Refined_Literature_Questions.csv
+	•Refined_Mathematics_Questions.csv
+	•Refined_General_Knowledge_Questions.csv
 
 Development
 
-	•	Python: Ensure Python 3.x is installed.
-	•	Framework: FastAPI powers the API services.
-	•	JSON Validation: JSON schema validation is used across APIs.
-	•	Documentation: Markdown format for documentation.
-	•	Version Control: Use Git for tracking changes.
+	• Python: Ensure Python 3.x is installed.
+	• Framework: FastAPI powers the API services.
+	• JSON Validation: JSON schema validation is used across APIs.
+	• Documentation: Markdown format for documentation.
+	• Version Control: Use Git for tracking changes.
 
 Contribution Guidelines
 
 We welcome contributions to enhance the Literary Vault. Please follow these guidelines:
 
-	1.	Fork the repository and create a new branch for your feature or bug fix.
-	2.	Follow existing naming conventions and structure.
-	3.	Document any new additions or changes.
-	4.	Submit a pull request with a clear description of the updates.
+	1. Fork the repository and create a new branch for your feature or bug fix.
+	2. Follow existing naming conventions and structure.
+	3. Document any new additions or changes.
+	4. Submit a pull request with a clear description of the updates.
 
 For more details, see CONTRIBUTING.md.
 
-License
-
+<strong>## License
+</strong>
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Last updated on October 28, 2024
-
+<strong>### Last updated on October 28, 2024
+</strong>
 ## 📚 Components
 
 ### 1. Analysis Directory
@@ -213,22 +213,25 @@ REST API for accessing curated question datasets:
 * Mathematics questions
 * General Knowledge questions
 
-Features:
-
+<strong>### Features:
+</strong>
 * Category-based retrieval
 * Random selection
 * Customizable limits
 * OpenAPI documentation
 
-Endpoints:
+### Endpoints:
 
 ```bash
 GET /api/v1/questions/{category}
 GET /api/v1/questions/{category}/random
 GET /api/v1/health
 ```
+</code></pre>
 
-#### Changelog API
+
+
+**Changelog API**
 
 Programmatic changelog management:
 
@@ -237,21 +240,21 @@ Programmatic changelog management:
 * Query history
 * Schema validation
 
-### 3. External Resources
+#### 3. External Resources
 
 * Mathematics PDFs
 * Question datasets (CSV format)
 * Reference materials
 * Supplementary documentation
 
-### 4. Integration Tools
+#### 4. Integration Tools
 
 * OpenAI function schemas
 * API integration guides
 * Changelog automation
 * Documentation templates
 
-### 5. Scripts
+#### 5. Scripts
 
 Utility scripts for repository management:
 
@@ -260,9 +263,9 @@ Utility scripts for repository management:
 * Documentation generators
 * Integration tools
 
-## 🔧 Usage
+### 🔧 Usage
 
-### 1. API Services
+#### 1. API Services
 
 Start the API servers:
 
@@ -276,11 +279,11 @@ python docs/api/changelog_api.py
 
 Access documentation:
 
-* Questions API: <http://localhost:8000/docs>
-* Changelog API: <http://localhost:8001/docs>
-* Changelog Server API: <https://exios66.github.io/Literary-Vault/>
+* Questions API: [http://localhost:8000/docs](http://localhost:8000/docs)
+* Changelog API: [http://localhost:8001/docs](http://localhost:8001/docs)
+* Changelog Server API: [https://exios66.github.io/Literary-Vault/](https://exios66.github.io/Literary-Vault/)
 
-### 2. Changelog Management
+#### 2. Changelog Management
 
 ```bash
 # Add entry
@@ -290,16 +293,16 @@ python scripts/update_changelog.py add "Added" "New feature"
 python scripts/update_changelog.py release "1.0.0"
 ```
 
-### 3. Question Datasets
+#### 3. Question Datasets
 
 Access structured questions via API or direct CSV files:
 
-* Refined_Astronomy_Questions.csv
-* Refined_Literature_Questions.csv
-* Refined_Mathematics_Questions.csv
-* Refined_General Knowledge_Questions.csv
+* Refined\_Astronomy\_Questions.csv
+* Refined\_Literature\_Questions.csv
+* Refined\_Mathematics\_Questions.csv
+* Refined\_General Knowledge\_Questions.csv
 
-## 📋 Guidelines
+### 📋 Guidelines
 
 * Follow API documentation
 * Use provided schemas
@@ -308,7 +311,7 @@ Access structured questions via API or direct CSV files:
 * Follow naming conventions
 * Include proper citations
 
-## 🔒 Security
+### 🔒 Security
 
 * MIT License compliance
 * API authentication
@@ -316,14 +319,14 @@ Access structured questions via API or direct CSV files:
 * Error handling
 * Secure endpoints
 
-## 📚 Documentation
+### 📚 Documentation
 
 * API Documentation (/docs/api/)
 * Integration Guides (/docs/Integration/)
 * OpenAI Schemas (/docs/openai-functions/)
 * Analysis Templates (/docs/Analysis/)
 
-## 🛠️ Development
+### 🛠️ Development
 
 * Python 3.x required
 * FastAPI for APIs
@@ -331,14 +334,16 @@ Access structured questions via API or direct CSV files:
 * Markdown documentation
 * Git integration
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## 📄 License
+### 📄 License
 
-Released under [MIT License](LICENSE).
+Released under [MIT License](LICENSE/).
 
 ***
 
-### Last Updated: 2024-10-28
+#### Last Updated: 2024-10-28
+
+[^1]: 

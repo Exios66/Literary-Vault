@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Refactoring code with GitHub Copilot
 
 Leverage Copilot artificial intelligence to help you refactor your code quickly and effectively.

@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Asking GitHub Copilot questions in GitHub
 
 You can use GitHub Copilot Chat in GitHub to answer general questions about software development, or specific questions about the issues or code in a repository.

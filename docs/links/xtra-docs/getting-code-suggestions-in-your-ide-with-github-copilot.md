@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Getting code suggestions in your IDE with GitHub Copilot
 
 [Start a free trial](https://github.com/github-copilot/signup?ref\_cta=Copilot+trial\&ref\_loc=getting+started+with+github+copilot\&ref\_page=docs)

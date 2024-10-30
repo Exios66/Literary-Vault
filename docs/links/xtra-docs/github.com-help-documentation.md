@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # GitHub.com Help Documentation
 
 ### GitHub Docs <a href="#title-h1" id="title-h1"></a>

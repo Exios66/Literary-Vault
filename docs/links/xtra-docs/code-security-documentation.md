@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Code security documentation
 
 *

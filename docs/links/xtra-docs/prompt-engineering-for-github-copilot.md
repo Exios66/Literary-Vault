@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # Prompt engineering for GitHub Copilot
 
 Follow these strategies to improve your Copilot results.

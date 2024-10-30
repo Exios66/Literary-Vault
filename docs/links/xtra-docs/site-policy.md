@@ -1,3 +1,7 @@
+---
+icon: git
+---
+
 # site policy
 
 [Skip to main content](broken-reference)[GitHub Docs](broken-reference)Version: Free, Pro, & TeamSearch GitHub DocsSearchSelect language: current language is EnglishOpen Search BarClose Search BarOpen MenuOpen Sidebar
