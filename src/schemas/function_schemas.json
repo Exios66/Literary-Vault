@@ -1,0 +1,40 @@
+{
+  "functions": [
+    {
+      "name": "randomize_questions",
+      "description": "Randomly select and order questions from a given category",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "description": "The category of questions to randomize",
+            "enum": ["astronomy", "literature", "mathematics"]
+          },
+          "count": {
+            "type": "integer",
+            "description": "Number of questions to randomly select",
+            "default": 5,
+            "minimum": 1,
+            "maximum": 20
+          },
+          "seed": {
+            "type": "integer",
+            "description": "Optional random seed for reproducible randomization"
+          },
+          "topic": {
+            "type": "string",
+            "description": "Optional topic filter (e.g., 'Planets', 'Stars', 'Galaxies')"
+          },
+          "difficulty": {
+            "type": "integer",
+            "description": "Optional difficulty level (0-3)",
+            "minimum": 0,
+            "maximum": 3
+          }
+        },
+        "required": ["category"]
+      }
+    }
+  ]
+} 
