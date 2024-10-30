@@ -827,5 +827,180 @@ enum Category {
       // Initialize when the page loads
       init().catch(console.error);
     </script>
+    <script type="text/javascript">
+      // Embedded CSV data
+      window.embeddedCSVData = {
+        psychology: `question,correct_answer,Knowledge Category,difficulty
+"What is cognitive dissonance?","The mental discomfort experienced when holding contradictory beliefs","psychology","medium"
+"Who developed the hierarchy of needs?","Abraham Maslow","psychology","easy"`,
+
+        astronomy: `question,correct_answer,Knowledge Category,difficulty
+"What is the closest star to Earth?","The Sun","astronomy","easy"
+"What is the largest planet in our solar system?","Jupiter","astronomy","easy"
+"What is the name of our galaxy?","The Milky Way","astronomy","easy"`,
+
+        literature: `question,correct_answer,Knowledge Category,difficulty
+"Who wrote 'Pride and Prejudice'?","Jane Austen","literature","medium"
+"Who wrote '1984'?","George Orwell","literature","medium"
+"Who wrote 'Romeo and Juliet'?","William Shakespeare","literature","easy"`,
+
+        mathematics: `question,correct_answer,Knowledge Category,difficulty
+"What is the square root of 144?","12","mathematics","easy"
+"What is Pi to two decimal places?","3.14","mathematics","easy"
+"What is the Pythagorean theorem?","a² + b² = c²","mathematics","medium"`,
+
+        "american-history": `question,correct_answer,Knowledge Category,difficulty
+"Who was the first US President?","George Washington","american-history","easy"
+"In what year was the Declaration of Independence signed?","1776","american-history","easy"
+"What was the first permanent English settlement in America?","Jamestown","american-history","medium"`
+      };
+    </script>
+    <script type="module">
+      // Updated QuestionAPI implementation to use embedded data
+      class QuestionAPI {
+        constructor() {
+          this.questions = [];
+          this.categories = new Set();
+          this.loadQuestions();
+        }
+
+        async loadQuestions() {
+          try {
+            Object.entries(window.embeddedCSVData).forEach(([category, csvData]) => {
+              const results = Papa.parse(csvData, { 
+                header: true,
+                skipEmptyLines: true 
+              });
+
+              results.data.forEach(question => {
+                if (question.question && question.correct_answer) {
+                  this.questions.push({
+                    ...question,
+                    category: category.toLowerCase()
+                  });
+                  this.categories.add(category.toLowerCase());
+                }
+              });
+            });
+
+            console.log(`Loaded ${this.questions.length} questions`);
+            console.log('Available categories:', Array.from(this.categories));
+            
+          } catch (error) {
+            console.error('Error loading questions:', error);
+          }
+        }
+
+        getCategories() {
+          return Array.from(this.categories);
+        }
+
+        getRandomQuestion() {
+          const randomIndex = Math.floor(Math.random() * this.questions.length);
+          return this.formatQuestion(this.questions[randomIndex]);
+        }
+
+        getCategoryQuestions(category) {
+          return this.questions
+            .filter(q => q.category.toLowerCase() === category.toLowerCase())
+            .map(this.formatQuestion);
+        }
+
+        getCategoryStats(category) {
+          const categoryQuestions = this.getCategoryQuestions(category);
+          return {
+            total_questions: categoryQuestions.length,
+            difficulty_breakdown: {
+              easy: categoryQuestions.filter(q => q.difficulty === 'easy').length,
+              medium: categoryQuestions.filter(q => q.difficulty === 'medium').length,
+              hard: categoryQuestions.filter(q => q.difficulty === 'hard').length
+            },
+            average_difficulty: this.calculateAverageDifficulty(categoryQuestions)
+          };
+        }
+
+        formatQuestion(question) {
+          return {
+            question: question.question,
+            correct_answer: question.correct_answer,
+            category: question.category,
+            difficulty: question.difficulty,
+            id: `Q${Math.random().toString(36).substr(2, 9)}`
+          };
+        }
+
+        calculateAverageDifficulty(questions) {
+          const difficultyScores = {
+            easy: 1,
+            medium: 2,
+            hard: 3
+          };
+
+          const total = questions.reduce((sum, q) => sum + (difficultyScores[q.difficulty] || 2), 0);
+          const avg = total / questions.length;
+
+          if (avg <= 1.5) return 'easy';
+          if (avg <= 2.5) return 'medium';
+          return 'hard';
+        }
+      }
+
+      // Initialize and expose API
+      const questionAPI = new QuestionAPI();
+      
+      window.literaryVaultAPI = {
+        get_categories: () => questionAPI.getCategories(),
+        get_random_question: () => questionAPI.getRandomQuestion(),
+        get_category_questions: (params) => questionAPI.getCategoryQuestions(params.category),
+        get_category_stats: (params) => questionAPI.getCategoryStats(params.category)
+      };
+
+      // OpenAI function definitions
+      window.literaryVaultFunctions = [
+        {
+          name: "get_categories",
+          description: "Get all available question categories",
+          parameters: { type: "object", properties: {} }
+        },
+        {
+          name: "get_random_question",
+          description: "Get a random question from any category",
+          parameters: { type: "object", properties: {} }
+        },
+        {
+          name: "get_category_questions",
+          description: "Get questions from a specific category",
+          parameters: {
+            type: "object",
+            properties: {
+              category: {
+                type: "string",
+                description: "The category name (e.g., astronomy, literature)"
+              }
+            },
+            required: ["category"]
+          }
+        },
+        {
+          name: "get_category_stats",
+          description: "Get statistics about questions in a category",
+          parameters: {
+            type: "object",
+            properties: {
+              category: {
+                type: "string",
+                description: "The category name (e.g., astronomy, literature)"
+              }
+            },
+            required: ["category"]
+          }
+        }
+      ];
+
+      // Update example responses on page load
+      questionAPI.loadQuestions().then(() => {
+        updateExampleResponses();
+      });
+    </script>
 </body>
 </html>
