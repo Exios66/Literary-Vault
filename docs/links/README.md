@@ -2,7 +2,7 @@
 icon: link
 ---
 
-# External Links and Resources
+# links
 
 This directory contains links to external resources and additional documentation that support the Literary Vault project.
 
@@ -17,7 +17,7 @@ This directory contains links to external resources and additional documentation
 
 ### 2. Extra Documentation
 
-* [Serverless API Guide](xtra-docs/serverless-api-hf.md)
+* [Serverless API Guide](broken-reference)
 * Additional implementation details
 * Extended tutorials
 * Advanced configurations
@@ -62,6 +62,6 @@ When adding new links:
 * Resource validation
 * Integration testing
 
----
+***
 
 Last Updated: 2024-01-27

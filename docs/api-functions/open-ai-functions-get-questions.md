@@ -1,8 +1,11 @@
 ---
 icon: square-terminal
+cover: >-
+  https://images.unsplash.com/photo-1675557010061-315772f6efef?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxvcGVuYWl8ZW58MHx8fHwxNzMwMzIxNDQwfDA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
-# Open Ai Functions - Get Questions
+# Open Ai Functions - Get Questions v1
 
 ### GET QUESTIONS
 

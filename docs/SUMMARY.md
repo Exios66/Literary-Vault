@@ -26,10 +26,35 @@
 
 ## API Functions
 
-* [Open Ai Functions - Get Questions](api-functions/open-ai-functions-get-questions.md)
+* [Open Ai Functions - Get Questions v1](api-functions/open-ai-functions-get-questions.md)
 
 ***
 
 * [links](links/README.md)
   * [xtra-docs](links/xtra-docs/README.md)
     * [Serverless Inference API](links/xtra-docs/serverless-inference-api.md)
+    * [Questions API Documentation](links/xtra-docs/questions-api-documentation.md)
+    * [Hugging Face Hub documentation](links/xtra-docs/hugging-face-hub-documentation.md)
+    * [GitHub.com Help Documentation](links/xtra-docs/github.com-help-documentation.md)
+    * [Get started with GitHub documentation](links/xtra-docs/get-started-with-github-documentation.md)
+    * [Migrations documentation](links/xtra-docs/migrations-documentation.md)
+    * [site policy](links/xtra-docs/site-policy.md)
+    * [Billing and payments documentation](links/xtra-docs/billing-and-payments-documentation.md)
+    * [Account and profile documentation](links/xtra-docs/account-and-profile-documentation.md)
+    * [Authentication documentation](links/xtra-docs/authentication-documentation.md)
+    * [GitHub Discussions documentation](links/xtra-docs/github-discussions-documentation.md)
+    * [Pull requests documentation](links/xtra-docs/pull-requests-documentation.md)
+    * [Codespaces documentation](links/xtra-docs/codespaces-documentation.md)
+    * [GitHub Copilot documentation](links/xtra-docs/github-copilot-documentation.md)
+    * [Repositories documentation](links/xtra-docs/repositories-documentation.md)
+    * [Prompt engineering for GitHub Copilot](links/xtra-docs/prompt-engineering-for-github-copilot.md)
+    * [Getting code suggestions in your IDE with GitHub Copilot](links/xtra-docs/getting-code-suggestions-in-your-ide-with-github-copilot.md)
+    * [Refactoring code with GitHub Copilot](links/xtra-docs/refactoring-code-with-github-copilot.md)
+    * [GitHub Actions documentation](links/xtra-docs/github-actions-documentation.md)
+    * [GitHub Pages documentation](links/xtra-docs/github-pages-documentation.md)
+    * [Asking GitHub Copilot questions in GitHub](links/xtra-docs/asking-github-copilot-questions-in-github.md)
+    * [Securing your software supply chain](links/xtra-docs/securing-your-software-supply-chain.md)
+    * [Code security documentation](links/xtra-docs/code-security-documentation.md)
+    * [GitHub Packages documentation](links/xtra-docs/github-packages-documentation.md)
+    * [Transformers-HF](https://huggingface.co/docs/transformers/index)
+    * [Inference Endpoints-HF](https://huggingface.co/docs/inference-endpoints/index)

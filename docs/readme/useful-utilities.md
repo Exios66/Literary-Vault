@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1650295751050-b184e54e177c?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxHaXRIdWJ8ZW58MHx8fHwxNzMwMzIxMjExfDA&ixlib=rb-4.0.3&q=85
+coverY: 0
+---
+
 # Useful Utilities
 
 ## Badge Generator

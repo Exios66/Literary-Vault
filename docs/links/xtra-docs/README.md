@@ -2,7 +2,7 @@
 icon: book
 ---
 
-# Additional Documentation
+# xtra-docs
 
 Extended documentation and implementation guides for the Literary Vault project.
 
@@ -12,7 +12,7 @@ Extended documentation and implementation guides for the Literary Vault project.
 
 #### Serverless API
 
-* [Serverless API with Hugging Face](serverless-api-hf.md)
+* [Serverless API with Hugging Face](broken-reference)
 * Deployment steps
 * Configuration options
 * Usage examples
@@ -96,6 +96,6 @@ When adding documentation:
 * Code examples
 * Configuration templates
 
----
+***
 
 Last Updated: 2024-01-27

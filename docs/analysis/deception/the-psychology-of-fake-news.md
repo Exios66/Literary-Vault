@@ -1,3 +1,7 @@
+---
+icon: tv-retro
+---
+
 # The Psychology of Fake News
 
 ## The Psychology of Fake News

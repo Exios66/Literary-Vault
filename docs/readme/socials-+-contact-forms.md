@@ -1,3 +1,11 @@
+---
+icon: mobile
+cover: >-
+  https://images.unsplash.com/photo-1600096194534-95cf5ece04cf?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzb2NpYWx8ZW58MHx8fHwxNzMwMzIxMTQ4fDA&ixlib=rb-4.0.3&q=85
+coverY: 217
+layout: editorial
+---
+
 # Socials + Contact Forms
 
 ## Linktree

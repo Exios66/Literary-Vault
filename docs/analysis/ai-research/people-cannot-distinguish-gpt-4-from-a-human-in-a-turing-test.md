@@ -1,3 +1,7 @@
+---
+icon: message-bot
+---
+
 # People Cannot Distinguish GPT-4 from a Human in a Turing Test
 
 ## People Cannot Distinguish GPT-4 from a Human in a Turing Test
