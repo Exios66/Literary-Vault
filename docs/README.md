@@ -28,7 +28,7 @@ layout:
 
 ***
 
-[Docs2](Docs-2.0)
+[Docs2](#Docs-2.0)
 
 ## License
 
