@@ -9,7 +9,7 @@ coverY: 0
 
 ## Literary Vault
 
-* [https://app.gitbook.com/o/DfoU1sywMKH5TwuUhGYu/s/C6n7hphnd1S7jbWRLznx/\~/changes/15/](../../)
+* [https://app.gitbook.com/o/DfoU1sywMKH5TwuUhGYu/s/C6n7hphnd1S7jbWRLznx/\~/changes/15/](../)
 
 ## API ENDPOINTS
 
@@ -17,7 +17,7 @@ coverY: 0
 
 ## EEG Python Analysis
 
-* [eeg-python-analysis.md](eeg-python-analysis.md "mention")
+* [eeg-python-analysis.md](outbound-links/eeg-python-analysis.md "mention")
 
 ## POMODORO SESSION TIMER
 
