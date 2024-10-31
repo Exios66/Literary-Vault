@@ -1,40 +1,47 @@
-from flask import Flask, render_template, jsonify, request
-from flask_cors import CORS
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 from config import Config
-import os
+from flask_migrate import Migrate
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Initialize extensions
+db = SQLAlchemy()
+migrate = Migrate()
 
 def create_app(config_class=Config):
-    app = Flask(__name__)
-    app.config.from_object(config_class)
-    CORS(app)
-
-    @app.route('/')
-    def index():
-        return render_template('index.html')
-
-    @app.route('/api/theme', methods=['GET'])
-    def get_theme():
-        # Could be expanded to fetch theme from user preferences/database
-        return jsonify({'theme': 'light'})
-
-    @app.route('/api/theme', methods=['POST'])
-    def set_theme():
-        theme = request.json.get('theme')
-        # Could be expanded to save theme to user preferences/database
-        return jsonify({'success': True, 'theme': theme})
-
-    @app.errorhandler(404)
-    def not_found_error(error):
-        return render_template('404.html'), 404
-
-    @app.errorhandler(500)
-    def internal_error(error):
-        return render_template('500.html'), 500
-
-    return app
+    try:
+        # Initialize Flask app
+        app = Flask(__name__)
+        app.config.from_object(config_class)
+        
+        # Initialize extensions with app context
+        db.init_app(app)
+        migrate.init_app(app, db)
+        
+        # Register blueprints
+        try:
+            from src.routes.questions import bp as questions_bp
+            app.register_blueprint(questions_bp, url_prefix='/api')
+        except ImportError as e:
+            logger.error(f"Failed to import blueprint: {str(e)}")
+            raise
+        
+        # Log successful initialization
+        logger.info("Application initialized successfully")
+        
+        return app
+        
+    except Exception as e:
+        logger.error(f"Failed to create app: {str(e)}")
+        raise
 
 if __name__ == '__main__':
-    app = create_app()
-    port = int(os.environ.get('PORT', 5000))
-    debug = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
-    app.run(host='0.0.0.0', port=port, debug=debug)
+    try:
+        app = create_app()
+        app.run(debug=True)
+    except Exception as e:
+        logger.error(f"Failed to run app: {str(e)}")
