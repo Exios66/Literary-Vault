@@ -28,7 +28,7 @@ layout:
 
 ***
 
-[Docs2](#Docs-2.0)
+# https://morningstar-developments.gitbook.io/morningstar-developments-publishing/
 
 ## License
 
