@@ -24,14 +24,23 @@
     * [The Oxford Handbook of Event-Related Potential Components](analysis/eeg/the-oxford-handbook-of-event-related-potential-components.md)
   * [Additional Literature](analysis/additional-literature.md)
 
-## API Functions
+## Directional-Routing
 
-* [Open Ai Functions - Get Questions v1](api-functions/open-ai-functions-get-questions.md)
+* [Morningstar Directional Routes / API Endpoints](directional-routing/morningstar-directional-routes-api-endpoints/README.md)
+  * [Open Ai Functions - Get Questions v1](directional-routing/morningstar-directional-routes-api-endpoints/open-ai-functions-get-questions.md)
+* [Morningstar Privacy Policy](directional-routing/morningstar-privacy-policy.md)
+
+## API Functions
 
 ## WIKI
 
 * [Proposal \[v6.1\]](wiki/proposal-v6.1/README.md)
   * [Literature Review - Ai Proposal](wiki/proposal-v6.1/literature-review-ai-proposal.md)
+  * [Proposal Additional Materials](wiki/proposal-v6.1/proposal-additional-materials/README.md)
+    * [IRB Proposal Materials](wiki/proposal-v6.1/proposal-additional-materials/irb-proposal-materials.md)
+    * [Preliminary Screening Survey](wiki/proposal-v6.1/proposal-additional-materials/preliminary-screening-survey.md)
+    * [Post Assessment Reflection Survey](wiki/proposal-v6.1/proposal-additional-materials/post-assessment-reflection-survey.md)
+    * [Predisposition Survey](wiki/proposal-v6.1/proposal-additional-materials/predisposition-survey.md)
 * [HOTLINKS](wiki/links/README.md)
   * [xtra-docs](wiki/links/xtra-docs/README.md)
     * [Serverless Inference API](wiki/links/xtra-docs/serverless-inference-api.md)
@@ -76,3 +85,5 @@
   * [The MACH-IV Scale](wiki/the-dark-triad-traits/the-mach-iv-scale.md)
 * [Synchronized Repositories](wiki/synchronized-repositories/README.md)
   * [Beneficial Github Repositories](wiki/synchronized-repositories/beneficial-github-repositories.md)
+* [Paradoxes & Dillemas](wiki/paradoxes-and-dillemas/README.md)
+  * [The Moral Machine](wiki/paradoxes-and-dillemas/the-moral-machine.md)
