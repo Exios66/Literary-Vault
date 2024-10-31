@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from config import Config
 from flask_migrate import Migrate
@@ -45,3 +45,8 @@ if __name__ == '__main__':
         app.run(debug=True)
     except Exception as e:
         logger.error(f"Failed to run app: {str(e)}")
+
+@app.errorhandler(404)
+@app.route('/404')
+def not_found_error(_):
+    return render_template('404.html'), 404

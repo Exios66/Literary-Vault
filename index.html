@@ -70,10 +70,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 
         body {
-            <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PB4QP55F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             line-height: 1.6;
             color: var(--text-color);
@@ -84,6 +80,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             display: flex;
             flex-direction: column;
             padding-top: 120px; /* Account for fixed header */
+        }
+
+        /* Google Tag Manager (noscript) */
+        noscript iframe {
+            display: none;
+            visibility: hidden;
+            height: 0;
+            width: 0;
         }
 
         .header {
@@ -909,9 +913,17 @@ enum Category {
       ];
 
       // Update example responses on page load
-      questionAPI.loadQuestions().then(() => {
-        updateExampleResponses();
-      });
+      questionAPI.loadQuestions()
+        .then(() => {
+          try {
+            updateExampleResponses();
+          } catch (error) {
+            console.error('Failed to update example responses:', error);
+          }
+        })
+        .catch(error => {
+          console.error('Failed to load questions:', error);
+        });
     </script>
 </body>
 </html>
