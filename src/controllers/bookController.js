@@ -29,7 +29,7 @@ export async function searchBooks(req, res) {
     }
     
     if (category) {
-      query.category = category;
+      query.category = { $eq: category };
     }
     
     const books = await find(query).limit(Number(limit));
