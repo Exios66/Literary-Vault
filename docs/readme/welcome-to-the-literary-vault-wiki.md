@@ -1,5 +1,8 @@
 ---
 icon: books
+cover: >-
+  https://images.unsplash.com/photo-1461681334529-b7210750c909?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHx2YXVsdHxlbnwwfHx8fDE3MzAzNzA2MzR8MA&ixlib=rb-4.0.3&q=85
+coverY: 0
 ---
 
 # Welcome to the Literary-Vault wiki!
