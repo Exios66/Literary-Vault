@@ -28,6 +28,8 @@ layout:
 
 ***
 
+[Docs2](Docs-2.0)
+
 ## License
 
 Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
