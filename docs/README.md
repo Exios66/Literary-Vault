@@ -38,6 +38,16 @@ Released under [MIT](/LICENSE) by [@Exios66](https://github.com/Exios66).
 [![Contributors](https://img.shields.io/github/contributors/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/Exios66/Literary-Vault.svg)](https://github.com/Exios66/Literary-Vault/commits/main)
 
+[![Made with Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-black?logo=flask)](https://flask.palletsprojects.com/)
+[![HTML5](https://img.shields.io/badge/HTML-5-orange?logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Markdown](https://img.shields.io/badge/Markdown-Documentation-lightgrey?logo=markdown)](https://www.markdownguide.org/)
+[![GitBook](https://img.shields.io/badge/Docs-GitBook-green?logo=gitbook)](https://www.gitbook.com/)
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-blue?logo=githubactions&logoColor=white)](https://github.com/features/actions)
+[![Netlify](https://img.shields.io/badge/Deployed%20On-Netlify-blue?logo=netlify&logoColor=white)](https://www.netlify.com/)
+
 ## 🗂️ Repository Structure
 
 ```bash
@@ -60,8 +70,7 @@ literary-vault/
 ├── CONTRIBUTING.md      # Contribution guidelines
 ├── LICENSE             # MIT License
 └── README.md           # Repository documentation
-``Here’s a comprehensive README for the “Literary Vault” repository, integrating current structure and expanding with additional details:
-
+```
 # Literary Vault
 
 An active catalog and toolkit supporting neuroscience research with organized documentation, backend services, and infrastructure for comprehensive analysis and API services.
@@ -131,15 +140,16 @@ Scripts provided for streamlined repository management, including:
    git clone https://github.com/Exios66/Literary-Vault.git
    cd Literary-Vault
 
-	2.	Install dependencies:
+2.Install dependencies:
 
+```python
 pip install -r requirements.txt
+```
 
 
+## Usage
 
-Usage
-
-Start API Servers
+- Start API Servers
 
 Run API servers for different modules:
 
@@ -151,17 +161,17 @@ python docs/api/changelog_api.py
 
 Changelog Management
 
-Use the provided scripts to add entries or create releases:
+	Use the provided scripts to add entries or create releases:
 
 # Add an entry to the changelog
-python scripts/update_changelog.py add "Added" "Description of new feature"
+	python scripts/update_changelog.py add "Added" "Description of new feature"
 
 # Create a release entry
-python scripts/update_changelog.py release "1.0.0"
+	python scripts/update_changelog.py release "1.0.0"
 
-Access Question Datasets
+## Access Question Datasets
 
-The repository includes various question sets in CSV format, accessible either via the API or directly:
+### The repository includes various question sets in CSV format, accessible either via the API or directly:
 
 	•	Refined_Astronomy_Questions.csv
 	•	Refined_Literature_Questions.csv
@@ -342,4 +352,4 @@ Released under [MIT License](LICENSE).
 
 ***
 
-### Last Updated: 2024-10-28
+### Last Updated: 2024-10-30

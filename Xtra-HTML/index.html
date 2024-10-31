@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Vault API Documentation</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1d4ed8;
+            --text-color: #1f2937;
+            --background-color: #ffffff;
+            --code-bg: #f3f4f6;
+            --code-text: #1f2937;
+            --border-color: #e5e7eb;
+        }
+
+        [data-theme="dark"] {
+            --primary-color: #3b82f6;
+            --secondary-color: #2563eb;
+            --text-color: #f9fafb;
+            --background-color: #111827;
+            --code-bg: #1f2937;
+            --code-text: #f9fafb;
+            --border-color: #374151;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1, h2, h3 {
+            color: var(--primary-color);
+        }
+
+        .endpoint {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+        }
+
+        code {
+            background-color: var(--code-bg);
+            color: var(--code-text);
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.25rem;
+            font-family: monospace;
+        }
+
+        pre {
+            position: relative;
+            background-color: var(--code-bg);
+            color: var(--code-text);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        .method {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+
+        .get { background-color: #22c55e; color: white; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--code-bg);
+            color: var(--code-text);
+        }
+
+        .theme-toggle {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 0.75rem;
+            border-radius: 50%;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .json-schema {
+            background-color: var(--code-bg);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+            overflow-x: auto;
+        }
+
+        .integration-steps {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .integration-steps li {
+            margin-bottom: 1rem;
+            padding: 1rem;
+            background-color: var(--code-bg);
+            border-radius: 0.5rem;
+        }
+
+        .warning {
+            background-color: #fef2f2;
+            color: #991b1b;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        [data-theme="dark"] .warning {
+            background-color: #7f1d1d;
+            color: #fecaca;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+            z-index: 10000;
+        }
+
+        .toast.show {
+            opacity: 1;
+        }
+
+        .footer {
+            background: var(--code-bg);
+            color: var(--code-text);
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .footer-links a {
+            color: var(--code-text);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .footer-links svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .copy-button {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 0.25rem 0.5rem;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .copy-button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .copy-button svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Literary Vault API Documentation</h1>
+        <p>Base URL: <code>http://localhost:8000/api/v1</code></p>
+
+        <h2>Available Categories</h2>
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <code>/categories</code>
+            <p>Get all available question categories</p>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+curl "http://localhost:8000/api/v1/categories"</pre>
+            <h3>Response</h3>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+{
+  "categories": [
+    "astronomy",
+    "literature",
+    "mathematics", 
+    "psychology",
+    "american-history"
+  ]
+}</pre>
+        </div>
+
+        <h2>Random Questions</h2>
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <code>/random</code>
+            <p>Get a random question from any category</p>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+curl "http://localhost:8000/api/v1/random"</pre>
+            <h3>Response</h3>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+{
+  "question": "What is the name of the galaxy closest to the Milky Way?",
+  "category": "astronomy",
+  "difficulty": "medium",
+  "answer": "The Andromeda Galaxy (M31)"
+}</pre>
+        </div>
+
+        <h2>Category Questions</h2>
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <code>/categories/{category}/questions</code>
+            <p>Get questions from a specific category</p>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+curl "http://localhost:8000/api/v1/categories/astronomy/questions"</pre>
+            <h3>Response</h3>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+{
+  "questions": [
+    {
+      "question": "What is the name of the galaxy closest to the Milky Way?",
+      "difficulty": "medium",
+      "answer": "The Andromeda Galaxy (M31)"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "difficulty": "easy", 
+      "answer": "Jupiter"
+    }
+  ]
+}</pre>
+        </div>
+
+        <h2>Category Statistics</h2>
+        <div class="endpoint">
+            <span class="method get">GET</span>
+            <code>/categories/{category}/stats</code>
+            <p>Get statistics about questions in a category</p>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+curl "http://localhost:8000/api/v1/categories/astronomy/stats"</pre>
+            <h3>Response</h3>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+{
+  "total_questions": 50,
+  "difficulty_breakdown": {
+    "easy": 15,
+    "medium": 25,
+    "hard": 10
+  },
+  "average_difficulty": "medium"
+}</pre>
+        </div>
+
+        <h2>Error Responses</h2>
+        <div class="endpoint">
+            <h3>404 Not Found</h3>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+{
+  "error": "Category not found",
+  "message": "The requested category 'invalid-category' does not exist"
+}</pre>
+
+            <h3>400 Bad Request</h3>
+            <pre>
+<button type="button" class="copy-button" onclick="copyToClipboard(this)">
+    <svg viewBox="0 0 24 24">
+        <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+    </svg>
+    Copy
+</button>
+{
+  "error": "Invalid request",
+  "message": "Missing required parameters"
+}</pre>
+        </div>
+
+    </div>
+
+    <button class="theme-toggle" type="button" onclick="toggleTheme()">🌓</button>
+
+    <script>
+        // Theme toggle functionality
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? '' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+        // Set initial theme based on localStorage
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+
+        // Toast notification handling
+        const toastElement = document.querySelector('.toast');
+        let toastTimeout;
+
+        const toast = {
+            show(message, duration = 3000) {
+                toastElement.textContent = message;
+                toastElement.classList.add('show');
+
+                clearTimeout(toastTimeout);
+                toastTimeout = setTimeout(() => {
+                    toastElement.classList.remove('show');
+                }, duration);
+            }
+        };
+
+        // Copy to clipboard functionality
+        function copyToClipboard(button) {
+            const pre = button.parentElement;
+            const codeText = pre.textContent.replace('Copy', '').trim();
+            navigator.clipboard.writeText(codeText).then(() => {
+                toast.show('Copied to clipboard');
+            });
+        }
+    </script>
+
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://github.com/Exios66/Literary-Vault/tree/main" target="_blank" rel="noopener noreferrer" aria-label="Literary Vault Repository">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    Repository
+                </a>
+                <a href="https://platform.openai.com/docs/guides/function-calling" target="_blank" rel="noopener noreferrer" aria-label="OpenAI Function Calling Documentation">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 3c-2.67 0-4.86 2.19-4.86 4.86h2.16c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7h2.16C16.86 7.19 14.67 5 12 5z"/>
+                    </svg>
+                    OpenAI Docs
+                </a>
+                <a href="https://app.gitbook.com/o/DfoU1sywMKH5TwuUhGYu/s/C6n7hphnd1S7jbWRLznx/" target="_blank" rel="noopener noreferrer" aria-label="GitBook Documentation">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm1 17H7v-2h6v2zm4-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                    </svg>
+                    GitBook
+                </a>
+                <a href="https://github.com/Exios66" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub Profile
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast" role="alert" aria-live="polite"></div>
+
+    <script type="module">
+      import { questionAPI, openAiFunctions } from '../src/api/questions.js';
+
+      // Expose API functions globally for OpenAI
+      window.literaryVaultAPI = {
+        get_categories: () => questionAPI.getCategories(),
+        get_random_question: () => questionAPI.getRandomQuestion(),
+        get_category_questions: (params) => questionAPI.getCategoryQuestions(params.category),
+        get_category_stats: (params) => questionAPI.getCategoryStats(params.category)
+      };
+
+      // Expose OpenAI function definitions
+      window.literaryVaultFunctions = openAiFunctions;
+    </script>
+</body>
+</html>

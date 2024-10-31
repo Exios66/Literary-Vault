@@ -57,6 +57,6 @@ If you want to get started quickly with [Chat Completion models](https://hugging
 
 ![](9\_Tgf0Tv65srhBirZQMTp.png)
 
-## Serious about AI in your organisation? Build faster with the Hugging Face Enterprise Hub.
+## Serious about AI in your organisation? Build faster with the Hugging Face Enterprise Hub
 
 ![](64zNL-65xyIpRqWHe2iD0.png) [< > Update on GitHub](https://github.com/huggingface/hub-docs/blob/main/docs/api-inference/index.md) [Serverless Inference API](https://huggingface.co/docs/api-inference/index)

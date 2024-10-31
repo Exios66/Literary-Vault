@@ -1,0 +1,521 @@
+id,question,correct_answer,choice_1,choice_2,choice_3,difficulty
+1,What is the capital of France?,Paris,London,Berlin,Madrid,0
+2,What is 2 + 2?,4,3,5,6,0
+3,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+4,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,1
+5,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,2
+6,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+7,What is the square root of 64?,8,6,10,12,1
+8,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,1
+9,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+10,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+11,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+12,What is the largest ocean on Earth?,Pacific Ocean,Atlantic Ocean,Indian Ocean,Arctic Ocean,0
+13,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+14,What is the chemical symbol for carbon?,C,Ca,Co,Cr,0
+15,What is the smallest prime number?,2,1,3,0,1
+16,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+17,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,0
+18,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+19,What is the atomic number of hydrogen?,1,2,3,4,0
+20,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+21,What is the capital of France?,Paris,London,Berlin,Madrid,0
+22,What is 2 + 2?,4,3,5,6,0
+23,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+24,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,1
+25,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,2
+26,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+27,What is the square root of 64?,8,6,10,12,1
+28,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,1
+29,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+30,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+31,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+32,What is the largest ocean on Earth?,Pacific Ocean,Atlantic Ocean,Indian Ocean,Arctic Ocean,0
+33,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+34,What is the chemical symbol for carbon?,C,Ca,Co,Cr,0
+35,What is the smallest prime number?,2,1,3,0,1
+36,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+37,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,0
+38,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+39,What is the atomic number of hydrogen?,1,2,3,4,0
+40,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+41,What is the capital of France?,Paris,London,Berlin,Madrid,0
+42,What is 2 + 2?,4,3,5,6,0
+43,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+44,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+45,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+46,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+47,What color is a banana?,Yellow,Red,Green,Blue,0
+48,How many continents are there?,7,5,6,8,0
+49,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+50,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+51,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+52,What is the square root of 64?,8,6,10,12,1
+53,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+54,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+55,What is the smallest prime number?,2,1,3,0,1
+56,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+57,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+58,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+59,What is the atomic number of carbon?,6,12,8,14,1
+60,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+61,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+62,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+63,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+64,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+65,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+66,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+67,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+68,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+69,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+70,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+71,What is the capital of France?,Paris,London,Berlin,Madrid,0
+72,What is 2 + 2?,4,3,5,6,0
+73,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+74,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+75,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+76,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+77,What color is a banana?,Yellow,Red,Green,Blue,0
+78,How many continents are there?,7,5,6,8,0
+79,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+80,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+81,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+82,What is the square root of 64?,8,6,10,12,1
+83,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+84,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+85,What is the smallest prime number?,2,1,3,0,1
+86,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+87,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+88,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+89,What is the atomic number of carbon?,6,12,8,14,1
+90,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+91,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+92,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+93,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+94,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+95,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+96,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+97,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+98,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+99,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+100,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+101,What is the capital of France?,Paris,London,Berlin,Madrid,0
+102,What is 2 + 2?,4,3,5,6,0
+103,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+104,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+105,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+106,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+107,What color is a banana?,Yellow,Red,Green,Blue,0
+108,How many continents are there?,7,5,6,8,0
+109,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+110,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+111,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+112,What is the square root of 64?,8,6,10,12,1
+113,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+114,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+115,What is the smallest prime number?,2,1,3,0,1
+116,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+117,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+118,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+119,What is the atomic number of carbon?,6,12,8,14,1
+120,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+121,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+122,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+123,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+124,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+125,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+126,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+127,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+128,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+129,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+130,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+131,What is the capital of France?,Paris,London,Berlin,Madrid,0
+132,What is 2 + 2?,4,3,5,6,0
+133,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+134,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+135,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+136,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+137,What color is a banana?,Yellow,Red,Green,Blue,0
+138,How many continents are there?,7,5,6,8,0
+139,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+140,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+141,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+142,What is the square root of 64?,8,6,10,12,1
+143,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+144,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+145,What is the smallest prime number?,2,1,3,0,1
+146,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+147,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+148,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+149,What is the atomic number of carbon?,6,12,8,14,1
+150,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+151,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+152,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+153,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+154,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+155,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+156,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+157,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+158,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+159,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+160,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+161,What is the capital of France?,Paris,London,Berlin,Madrid,0
+162,What is 2 + 2?,4,3,5,6,0
+163,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+164,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+165,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+166,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+167,What color is a banana?,Yellow,Red,Green,Blue,0
+168,How many continents are there?,7,5,6,8,0
+169,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+170,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+171,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+172,What is the square root of 64?,8,6,10,12,1
+173,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+174,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+175,What is the smallest prime number?,2,1,3,0,1
+176,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+177,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+178,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+179,What is the atomic number of carbon?,6,12,8,14,1
+180,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+181,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+182,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+183,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+184,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+185,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+186,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+187,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+188,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+189,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+190,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+191,What is the capital of France?,Paris,London,Berlin,Madrid,0
+192,What is 2 + 2?,4,3,5,6,0
+193,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+194,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+195,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+196,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+197,What color is a banana?,Yellow,Red,Green,Blue,0
+198,How many continents are there?,7,5,6,8,0
+199,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+200,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+201,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+202,What is the square root of 64?,8,6,10,12,1
+203,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+204,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+205,What is the smallest prime number?,2,1,3,0,1
+206,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+207,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+208,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+209,What is the atomic number of carbon?,6,12,8,14,1
+210,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+211,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+212,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+213,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+214,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+215,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+216,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+217,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+218,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+219,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+220,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+221,What is the capital of France?,Paris,London,Berlin,Madrid,0
+222,What is 2 + 2?,4,3,5,6,0
+223,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+224,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+225,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+226,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+227,What color is a banana?,Yellow,Red,Green,Blue,0
+228,How many continents are there?,7,5,6,8,0
+229,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+230,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+231,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+232,What is the square root of 64?,8,6,10,12,1
+233,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+234,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+235,What is the smallest prime number?,2,1,3,0,1
+236,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+237,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+238,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+239,What is the atomic number of carbon?,6,12,8,14,1
+240,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+241,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+242,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+243,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+244,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+245,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+246,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+247,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+248,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+249,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+250,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+251,What is the capital of France?,Paris,London,Berlin,Madrid,0
+252,What is 2 + 2?,4,3,5,6,0
+253,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+254,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+255,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+256,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+257,What color is a banana?,Yellow,Red,Green,Blue,0
+258,How many continents are there?,7,5,6,8,0
+259,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+260,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+261,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+262,What is the square root of 64?,8,6,10,12,1
+263,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+264,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+265,What is the smallest prime number?,2,1,3,0,1
+266,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+267,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+268,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+269,What is the atomic number of carbon?,6,12,8,14,1
+270,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+271,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+272,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+273,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+274,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+275,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+276,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+277,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+278,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+279,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+280,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+281,What is the capital of France?,Paris,London,Berlin,Madrid,0
+282,What is 2 + 2?,4,3,5,6,0
+283,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+284,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+285,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+286,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+287,What color is a banana?,Yellow,Red,Green,Blue,0
+288,How many continents are there?,7,5,6,8,0
+289,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+290,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+291,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+292,What is the square root of 64?,8,6,10,12,1
+293,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+294,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+295,What is the smallest prime number?,2,1,3,0,1
+296,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+297,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+298,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+299,What is the atomic number of carbon?,6,12,8,14,1
+300,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+301,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+302,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+303,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+304,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+305,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+306,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+307,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+308,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+309,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+310,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+311,What is the capital of France?,Paris,London,Berlin,Madrid,0
+312,What is 2 + 2?,4,3,5,6,0
+313,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+314,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+315,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+316,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+317,What color is a banana?,Yellow,Red,Green,Blue,0
+318,How many continents are there?,7,5,6,8,0
+319,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+320,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+321,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+322,What is the square root of 64?,8,6,10,12,1
+323,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+324,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+325,What is the smallest prime number?,2,1,3,0,1
+326,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+327,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+328,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+329,What is the atomic number of carbon?,6,12,8,14,1
+330,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+331,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+332,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+333,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+334,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+335,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+336,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+337,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+338,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+339,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+340,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+341,What is the capital of France?,Paris,London,Berlin,Madrid,0
+342,What is 2 + 2?,4,3,5,6,0
+343,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+344,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+345,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+346,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+347,What color is a banana?,Yellow,Red,Green,Blue,0
+348,How many continents are there?,7,5,6,8,0
+349,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+350,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+351,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+352,What is the square root of 64?,8,6,10,12,1
+353,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+354,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+355,What is the smallest prime number?,2,1,3,0,1
+356,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+357,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+358,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+359,What is the atomic number of carbon?,6,12,8,14,1
+360,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+361,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+362,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+363,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+364,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+365,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+366,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+367,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+368,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+369,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+370,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+371,What is the capital of France?,Paris,London,Berlin,Madrid,0
+372,What is 2 + 2?,4,3,5,6,0
+373,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+374,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+375,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+376,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+377,What color is a banana?,Yellow,Red,Green,Blue,0
+378,How many continents are there?,7,5,6,8,0
+379,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+380,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+381,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+382,What is the square root of 64?,8,6,10,12,1
+383,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+384,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+385,What is the smallest prime number?,2,1,3,0,1
+386,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+387,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+388,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+389,What is the atomic number of carbon?,6,12,8,14,1
+390,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+391,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+392,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+393,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+394,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+395,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+396,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+397,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+398,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+399,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+400,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+401,What is the capital of France?,Paris,London,Berlin,Madrid,0
+402,What is 2 + 2?,4,3,5,6,0
+403,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+404,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+405,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+406,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+407,What color is a banana?,Yellow,Red,Green,Blue,0
+408,How many continents are there?,7,5,6,8,0
+409,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+410,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+411,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+412,What is the square root of 64?,8,6,10,12,1
+413,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+414,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+415,What is the smallest prime number?,2,1,3,0,1
+416,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+417,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+418,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+419,What is the atomic number of carbon?,6,12,8,14,1
+420,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+421,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+422,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+423,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+424,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+425,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+426,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+427,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+428,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+429,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+430,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+431,What is the capital of France?,Paris,London,Berlin,Madrid,0
+432,What is 2 + 2?,4,3,5,6,0
+433,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+434,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+435,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+436,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+437,What color is a banana?,Yellow,Red,Green,Blue,0
+438,How many continents are there?,7,5,6,8,0
+439,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+440,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+441,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+442,What is the square root of 64?,8,6,10,12,1
+443,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+444,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+445,What is the smallest prime number?,2,1,3,0,1
+446,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+447,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+448,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+449,What is the atomic number of carbon?,6,12,8,14,1
+450,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+451,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+452,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+453,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+454,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+455,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+456,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+457,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+458,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+459,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+460,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+461,What is the capital of France?,Paris,London,Berlin,Madrid,0
+462,What is 2 + 2?,4,3,5,6,0
+463,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+464,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+465,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+466,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+467,What color is a banana?,Yellow,Red,Green,Blue,0
+468,How many continents are there?,7,5,6,8,0
+469,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+470,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+471,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+472,What is the square root of 64?,8,6,10,12,1
+473,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+474,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+475,What is the smallest prime number?,2,1,3,0,1
+476,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+477,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+478,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+479,What is the atomic number of carbon?,6,12,8,14,1
+480,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+481,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+482,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+483,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+484,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+485,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+486,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+487,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+488,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+489,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+490,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2
+491,What is the capital of France?,Paris,London,Berlin,Madrid,0
+492,What is 2 + 2?,4,3,5,6,0
+493,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Earth,0
+494,What is the chemical symbol for water?,H2O,CO2,NaCl,O2,0
+495,Who painted the Mona Lisa?,Leonardo da Vinci,Vincent van Gogh,Pablo Picasso,Michelangelo,0
+496,What is the capital of Japan?,Tokyo,Beijing,Seoul,Bangkok,0
+497,What color is a banana?,Yellow,Red,Green,Blue,0
+498,How many continents are there?,7,5,6,8,0
+499,What is the largest mammal?,Blue Whale,Elephant,Giraffe,Hippopotamus,0
+500,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,0
+501,Who wrote 'Romeo and Juliet'?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1
+502,What is the square root of 64?,8,6,10,12,1
+503,What is the capital of Australia?,Canberra,Sydney,Melbourne,Perth,1
+504,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1
+505,What is the smallest prime number?,2,1,3,0,1
+506,What is the capital of Brazil?,Brasília,Rio de Janeiro,São Paulo,Salvador,1
+507,What is the boiling point of water in Celsius?,100°C,0°C,50°C,200°C,1
+508,Who wrote '1984'?,George Orwell,Aldous Huxley,Ray Bradbury,H.G. Wells,1
+509,What is the atomic number of carbon?,6,12,8,14,1
+510,Which planet is known as the Red Planet?,Mars,Venus,Jupiter,Mercury,1
+511,What is the speed of light?,"299,792,458 m/s","300,000,000 m/s","199,792,458 m/s","250,000,000 m/s",2
+512,What is the longest river in the world?,Nile,Amazon,Yangtze,Mississippi,2
+513,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Joseph Lister,2
+514,What is the chemical formula for sulfuric acid?,H2SO4,HCl,NaOH,CH3COOH,2
+515,In what year did the French Revolution begin?,1789,1776,1804,1815,2
+516,What is the largest known prime number (as of 2023)?,"2^82,589,933 - 1","2^77,232,917 - 1","2^43,112,609 - 1","2^57,885,161 - 1",2
+517,What is the half-life of carbon-14?,"5,730 years","1,000 years","10,000 years","50,000 years",2
+518,Who proposed the heliocentric model of the solar system?,Nicolaus Copernicus,Galileo Galilei,Johannes Kepler,Tycho Brahe,2
+519,What is the most abundant element in the universe?,Hydrogen,Helium,Oxygen,Carbon,2
+520,What is the Goldbach Conjecture?,Every even integer greater than 2 can be expressed as the sum of two primes,There are infinitely many prime numbers,There is no largest prime number,Every odd number is the sum of three primes,2

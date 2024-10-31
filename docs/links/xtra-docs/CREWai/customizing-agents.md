@@ -1,6 +1,6 @@
 # Customizing Agents in CrewAI - crewAI
-![](Customizing-Agents.png)      
 
+![](Customizing-Agents.png)
 
 Crafting an efficient CrewAI team hinges on the ability to dynamically tailor your AI agents to meet the unique requirements of any project. This section covers the foundational attributes you can customize.
 
@@ -24,6 +24,7 @@ Crafting an efficient CrewAI team hinges on the ability to dynamically tailor yo
 * **Max Retry Limit**: `max_retry_limit` defines the maximum number of retries for an agent to execute a task when an error occurs.
 
 ⠀
+
 ## Advanced Customization Options[¶](https://docs.crewai.com/how-to/Customizing-Agents/#advanced-customization-options)
 
 Beyond the basic attributes, CrewAI allows for deeper customization to enhance an agent's behavior and capabilities significantly.
@@ -42,17 +43,18 @@ Adjusting an agent's performance and monitoring its operations are crucial for e
 * **RPM Limit**: Sets the maximum number of requests per minute (`max_rpm`). This attribute is optional and can be set to `None` for no limit, allowing for unlimited queries to external services if needed.
 
 ⠀
+
 ### Maximum Iterations for Task Execution[¶](https://docs.crewai.com/how-to/Customizing-Agents/#maximum-iterations-for-task-execution)
 
 The `max_iter` attribute allows users to define the maximum number of iterations an agent can perform for a single task, preventing infinite loops or excessively long executions. The default value is set to 25, providing a balance between thoroughness and efficiency. Once the agent approaches this number, it will try its best to give a good answer.
 
 Agents are customized by defining their attributes and tools during initialization. Tools are critical for an agent's functionality, enabling them to perform specialized tasks. The `tools` attribute should be an array of tools the agent can utilize, and it's initialized as an empty list by default. Tools can be added or modified post-agent initialization to adapt to new requirements.
 
-```
+```bash
 pip install 'crewai[tools]'
 ```
 
-```
+```bash
 import os
 from crewai import Agent
 from crewai_tools import SerperDevTool
@@ -83,7 +85,7 @@ Controlling an agent's ability to delegate tasks or ask questions is vital for t
 
 ### Example: Disabling Delegation for an Agent[¶](https://docs.crewai.com/how-to/Customizing-Agents/#example-disabling-delegation-for-an-agent)
 
-```
+```python
 agent = Agent(
  role='Content Writer',
  goal='Write engaging content on market trends',
@@ -97,4 +99,3 @@ agent = Agent(
 Customizing agents in CrewAI by setting their roles, goals, backstories, and tools, alongside advanced options like language model customization, memory, performance settings, and delegation preferences, equips a nuanced and capable AI team ready for complex challenges.
 
 [Customizing Agents in CrewAI - crewAI](https://docs.crewai.com/how-to/Customizing-Agents/)
-

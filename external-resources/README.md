@@ -99,12 +99,14 @@ When adding new resources:
 ## Data Format
 
 ### Question CSV Structure
+
 ```csv
 id,question,correct_answer,options
 AST_001,"What is the closest star to Earth?","Sun","['Sun', 'Proxima Centauri', 'Alpha Centauri', 'Sirius']"
 ```
 
 ### Required Fields
+
 * id: Unique identifier
 * question: Question text
 * correct_answer: The answer

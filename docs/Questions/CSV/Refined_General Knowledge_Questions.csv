@@ -1,5 +1,51 @@
 id,question,correct_answer,choice_1,choice_2,choice_3,difficulty,Knowledge Category,Topic Focus
-521,What is the tallest mountain in the world?,Mount Everest,K2,Kangchenjunga,Lhotse,0,General Knowledge,Geography
-522,Which element has the chemical symbol 'O'?,Oxygen,Gold,Silver,Osmium,1,General Knowledge,Chemistry
-523,Who was the first President of the United States?,George Washington,John Adams,Thomas Jefferson,James Madison,2,General Knowledge,History
-524,What language has the most native speakers?,Mandarin Chinese,English,Spanish,Hindi,3,General Knowledge,Linguistics
+761,What is the largest planet in our solar system?,Jupiter,Saturn,Mars,Venus,1,General Knowledge,Astronomy
+762,Which is the longest river in the world?,Nile River,Amazon River,Mississippi River,Yangtze River,2,General Knowledge,Geography
+763,What is the chemical symbol for gold?,Au,Ag,Fe,Cu,2,General Knowledge,Chemistry
+764,Who painted the Mona Lisa?,Leonardo da Vinci,Michelangelo,Raphael,Donatello,1,General Knowledge,Art
+765,What is the largest organ in the human body?,Skin,Heart,Brain,Liver,1,General Knowledge,Biology
+766,Which planet is known as the Red Planet?,Mars,Venus,Mercury,Jupiter,1,General Knowledge,Astronomy
+767,What is the main component of the Sun?,Hydrogen,Helium,Oxygen,Carbon,2,General Knowledge,Astronomy
+768,Which country has the largest population?,China,India,United States,Indonesia,1,General Knowledge,Geography
+769,What is the hardest natural substance?,Diamond,Ruby,Sapphire,Emerald,1,General Knowledge,Geology
+770,Who wrote "Romeo and Juliet"?,William Shakespeare,Charles Dickens,Jane Austen,Mark Twain,1,General Knowledge,Literature
+771,What is the speed of light?,299,792 km/s,200,000 km/s,150,000 km/s,250,000 km/s,3,General Knowledge,Physics
+772,Which element is essential for human bones?,Calcium,Iron,Potassium,Sodium,1,General Knowledge,Biology
+773,What is the capital of Japan?,Tokyo,Seoul,Beijing,Bangkok,1,General Knowledge,Geography
+774,Who discovered penicillin?,Alexander Fleming,Louis Pasteur,Marie Curie,Robert Koch,2,General Knowledge,Science
+775,What is the largest desert in the world?,Antarctic Desert,Sahara Desert,Arctic Desert,Arabian Desert,3,General Knowledge,Geography
+776,Which is the smallest prime number?,2,1,3,4,2,General Knowledge,Mathematics
+777,What is the chemical formula for water?,H2O,CO2,NaCl,O2,1,General Knowledge,Chemistry
+778,Who developed the theory of relativity?,Albert Einstein,Isaac Newton,Stephen Hawking,Niels Bohr,1,General Knowledge,Physics
+779,What is the largest species of shark?,Whale Shark,Great White,Tiger Shark,Hammerhead,2,General Knowledge,Biology
+780,Which continent is the least populated?,Antarctica,Australia,South America,Africa,1,General Knowledge,Geography
+781,What is the longest written epic poem?,Mahabharata,Iliad,Odyssey,Ramayana,3,General Knowledge,Literature
+782,Which gas do plants absorb from the atmosphere?,Carbon Dioxide,Oxygen,Nitrogen,Hydrogen,1,General Knowledge,Biology
+783,What is the study of weather called?,Meteorology,Geology,Biology,Astronomy,2,General Knowledge,Science
+784,Who invented the telephone?,Alexander Graham Bell,Thomas Edison,Nikola Tesla,George Westinghouse,1,General Knowledge,Technology
+785,What is the most abundant element in Earth's crust?,Oxygen,Silicon,Aluminum,Iron,2,General Knowledge,Geology
+786,Which ancient wonder still exists today?,Great Pyramid of Giza,Hanging Gardens,Colossus of Rhodes,Lighthouse of Alexandria,2,General Knowledge,History
+787,What is the smallest bone in the human body?,Stapes,Hammer,Anvil,Cochlea,3,General Knowledge,Biology
+788,Which planet has the most moons?,Jupiter,Saturn,Uranus,Neptune,2,General Knowledge,Astronomy
+789,What is the official language of Brazil?,Portuguese,Spanish,English,French,2,General Knowledge,Geography
+790,Who wrote "The Art of War"?,Sun Tzu,Confucius,Lao Tzu,Mencius,2,General Knowledge,Literature
+791,What is the deepest point in the ocean?,Mariana Trench,Puerto Rico Trench,Java Trench,Tonga Trench,2,General Knowledge,Geography
+792,Which element has the atomic number 1?,Hydrogen,Helium,Lithium,Carbon,1,General Knowledge,Chemistry
+793,What is the largest species of penguin?,Emperor Penguin,King Penguin,Adélie Penguin,Gentoo Penguin,2,General Knowledge,Biology
+794,Who developed the periodic table?,Dmitri Mendeleev,Antoine Lavoisier,Robert Boyle,John Dalton,2,General Knowledge,Chemistry
+795,What is the smallest planet in our solar system?,Mercury,Mars,Venus,Pluto,1,General Knowledge,Astronomy
+796,Which civilization built the Machu Picchu?,Inca,Maya,Aztec,Olmec,2,General Knowledge,History
+797,What is the most abundant gas in Earth's atmosphere?,Nitrogen,Oxygen,Carbon Dioxide,Argon,2,General Knowledge,Science
+798,Who painted "The Starry Night"?,Vincent van Gogh,Claude Monet,Pablo Picasso,Salvador Dalí,1,General Knowledge,Art
+799,What is the largest species of big cat?,Siberian Tiger,African Lion,Jaguar,Leopard,2,General Knowledge,Biology
+800,Which country invented paper?,China,Egypt,India,Greece,2,General Knowledge,History
+801,What is the standard atomic weight of carbon?,12.01,14.01,16.00,10.01,3,General Knowledge,Chemistry
+802,Who discovered radioactivity?,Marie Curie,Albert Einstein,Max Planck,Ernest Rutherford,2,General Knowledge,Physics
+803,What is the longest running TV show?,Guiding Light,General Hospital,Days of Our Lives,The Simpsons,3,General Knowledge,Entertainment
+804,Which element is liquid at room temperature?,Mercury,Iron,Copper,Gold,2,General Knowledge,Chemistry
+805,What is the largest bird by wingspan?,Wandering Albatross,California Condor,Andean Condor,Golden Eagle,3,General Knowledge,Biology
+806,Who wrote "The Republic"?,Plato,Aristotle,Socrates,Pythagoras,2,General Knowledge,Philosophy
+807,What is the smallest unit of life?,Cell,Atom,Molecule,Protein,1,General Knowledge,Biology
+808,Which country has the most islands?,Sweden,Indonesia,Japan,Philippines,3,General Knowledge,Geography
+809,What is the speed of sound in air?,343 m/s,300 m/s,400 m/s,500 m/s,3,General Knowledge,Physics
+810,Who invented the World Wide Web?,Tim Berners-Lee,Bill Gates,Steve Jobs,Mark Zuckerberg,2,General Knowledge,Technology
