@@ -25,7 +25,7 @@ layout:
 [![stars - Literary-Vault](https://img.shields.io/github/stars/Exios66/Literary-Vault?style=social)](https://github.com/Exios66/Literary-Vault)
 [![Docs - GitBook Dox](https://img.shields.io/badge/Docs-GitBook_Dox-brightgreen)](https://morningstar-developments.gitbook.io/morningstar-docs)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/24407b52-da34-4fbb-89b8-781bc6183a32/deploy-status)](https://app.netlify.com/sites/morningstar-dev/deploys)
-![dependency - Python](https://img.shields.io/badge/dependency-Python-blue?logo=python&logoColor=white)](https://pypi.org/project/Python)
+![dependency - Python](https://img.shields.io/badge/dependency-Python-blue?logo=python&logoColor=white)]
 
 ***
 
