@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from config import Config
 from flask_migrate import Migrate
 import logging
+import os
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -42,7 +43,8 @@ def create_app(config_class=Config):
 if __name__ == '__main__':
     try:
         app = create_app()
-        app.run(debug=True)
+        debug_mode = os.getenv('FLASK_DEBUG', 'False').lower() in ['true', '1', 't']
+        app.run(debug=debug_mode)
     except Exception as e:
         logger.error(f"Failed to run app: {str(e)}")
 
