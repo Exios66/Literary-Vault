@@ -200,12 +200,6 @@ We welcome contributions to enhance the Literary Vault. Please follow these guid
 
 For more details, see CONTRIBUTING.md.
 
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Last updated on October 28, 2024
-
 ## 📚 Components
 
 ### 1. Analysis Directory
