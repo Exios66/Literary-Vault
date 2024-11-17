@@ -335,6 +335,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             opacity: 1;
         }
     </style>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://platform.openai.com">
+    <link rel="preconnect" href="https://app.gitbook.com">
 </head>
 <body>
     <div class="header" role="banner">
@@ -774,6 +777,7 @@ enum Category {
       // Updated QuestionAPI implementation to use embedded data
       class QuestionAPI {
         constructor() {
+          this.cache = new Map();
           this.questions = [];
           this.categories = new Set();
           this.loadQuestions();
@@ -816,9 +820,15 @@ enum Category {
         }
 
         getCategoryQuestions(category) {
-          return this.questions
+          const cacheKey = `category_${category}`;
+          if (this.cache.has(cacheKey)) {
+            return this.cache.get(cacheKey);
+          }
+          const questions = this.questions
             .filter(q => q.category.toLowerCase() === category.toLowerCase())
             .map(this.formatQuestion);
+          this.cache.set(cacheKey, questions);
+          return questions;
         }
 
         getCategoryStats(category) {
@@ -925,5 +935,16 @@ enum Category {
           console.error('Failed to load questions:', error);
         });
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <noscript>
+      <style>
+        .js-only { display: none; }
+        .no-js-message { display: block; }
+      </style>
+      <div class="no-js-message">
+        Please enable JavaScript to use all features of this site.
+      </div>
+    </noscript>
 </body>
 </html>
