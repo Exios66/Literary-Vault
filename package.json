@@ -17,7 +17,7 @@
     "cors": "^2.8.5",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "express": "^4.21.2",
     "mongoose": "^8.7.3"
   },
   "type": "module"
